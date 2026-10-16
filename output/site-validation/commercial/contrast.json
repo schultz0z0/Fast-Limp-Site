@@ -1,0 +1,1526 @@
+{
+  "checked": 152,
+  "failures": [],
+  "rows": [
+    {
+      "text": "Pular para o conteúdo",
+      "tag": "A",
+      "class": "skip-link",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Serviços",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Referências",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como funciona",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dúvidas",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Solicitar orçamento",
+      "tag": "A",
+      "class": "button header-action",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros no Rio de Janeiro",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros limpos para sua casa ou empresa",
+      "tag": "H1",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de janelas, fachadas e vitrines. Conte o que precisa e peça seu orçament",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Solicitar um orçamento",
+      "tag": "A",
+      "class": "button button-light",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Para minha casa",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para minha empresa",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre a Fast Limp",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Mais luz para viver e trabalhar",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "A Fast Limp cuida dos vidros de residências e empresas no Rio de Janeiro. De jan",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para a sua casa",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros que fazem parte dos seus espaços de viver.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para a sua empresa",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Transparência na apresentação do seu ambiente profissional.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conte o que você precisa",
+      "tag": "A",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Limpeza para cada tipo de espaço",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "←",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "→",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Escolha o serviço e fale com a Fast Limp pelo WhatsApp.",
+      "tag": "P",
+      "class": "services-review small",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros residenciais",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza das janelas e superfícies de vidro da sua casa.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pedir orçamento",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros comerciais",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Vidros de escritórios e espaços comerciais para receber clientes e trabalhar.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pedir orçamento",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pós-obra",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza após obras em residências e comércios, com avaliação dos resíduos.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pedir orçamento",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fachadas de vidro",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de superfícies envidraçadas, conforme as condições de acesso.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pedir orçamento",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vitrines",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza dos vidros que apresentam sua loja a quem passa.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pedir orçamento",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Atendimento no Rio de Janeiro",
+      "tag": "P",
+      "class": "photo-note",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fale sobre o seu espaço",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Inspiração em cada detalhe",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Referências de serviço",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Vidro, luz e diferentes perspectivas. Explore as imagens.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como funciona",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Peça seu orçamento em poucos passos",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Comece pelo WhatsApp e alinhe os detalhes para seu endereço.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "01",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Chame no WhatsApp",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Abra uma conversa com a Fast Limp pelo botão de orçamento.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "02",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Mostre seu espaço",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Informe o bairro e o serviço. Fotos e medidas ajudam na avaliação.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "03",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Alinhe o orçamento",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Converse sobre escopo, acesso, valor e condições para seu local.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "04",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Combine a data",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Consulte a disponibilidade e confirme o agendamento no atendimento.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Por que Fast Limp",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "O vidro faz parte da primeira impressão",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Na fachada da loja, na janela de casa ou no escritório, a limpeza muda a forma d",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros residenciais",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros comerciais",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fachadas e vitrines",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Limpeza pós-obra",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conversar sobre meu espaço",
+      "tag": "A",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Cuidado nos detalhes",
+      "tag": "STRONG",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Para sua casa ou empresa",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Depoimentos",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "A experiência de quem contrata",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "“As janelas ficaram limpas e a sala ganhou outra aparência. Gostei do cuidado co",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Mariana Costa",
+      "tag": "STRONG",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Nossa equipe",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pessoas por trás do cuidado",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Rafael Souza",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Camila Alves",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Bruno Lima",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dúvidas frequentes",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "O que saber antes de pedir seu orçamento",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Do tipo de vidro às condições de acesso, alguns detalhes ajudam a entender o que",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como solicitar um orçamento?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Toque em “Solicitar um orçamento” para abrir o WhatsApp da Fast Limp no número (",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Quais serviços a Fast Limp oferece?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Qual é a região de atendimento?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "O que influencia o preço e o tempo da limpeza?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "A limpeza pós-obra remove tinta e cola dos vidros?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vocês limpam fachadas e vidros em locais altos?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Com que frequência devo limpar os vidros?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Preciso preparar o ambiente antes do atendimento?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Ainda tem uma dúvida?",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conte sobre seu espaço pelo WhatsApp.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Tirar uma dúvida",
+      "tag": "A",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Fast Limp · Limpeza de vidros",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Seu próximo passo é uma conversa",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Solicitar um orçamento",
+      "tag": "A",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros para residências e empresas no Rio de Janeiro.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fale com a Fast Limp",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Rio de Janeiro Consulte o atendimento para seu bairro",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "WhatsApp (21) 96764-3628",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Chamar no WhatsApp",
+      "tag": "A",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Explore",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre a Fast Limp",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Serviços",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Galeria",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como funciona",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dúvidas frequentes",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Serviços",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros residenciais ↗",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros comerciais ↗",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pós-obra ↗",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fachadas de vidro ↗",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vitrines ↗",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "© Fast Limp",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "2026",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Privacidade e contato",
+      "tag": "BUTTON",
+      "class": "footer-privacy",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    }
+  ]
+}

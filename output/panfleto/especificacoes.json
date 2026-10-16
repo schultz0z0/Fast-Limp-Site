@@ -1,0 +1,24 @@
+{
+  "format": "A5 vertical, frente única",
+  "trimMm": [
+    148,
+    210
+  ],
+  "bleedMm": 3,
+  "mediaWithMarksMm": [
+    164,
+    226
+  ],
+  "safetyMm": 5,
+  "phone": "(21) 96764-3628",
+  "whatsapp": "https://wa.me/5521967643628",
+  "logo": "marca/brandbook-v1/pdf/fast-limp-horizontal-principal.pdf",
+  "logoVisibleWidthMm": 82,
+  "type": "Manrope 400/600/700, fontes incorporadas",
+  "photo": "Pexels 37440103, Cihat Dede, master licenciado; fotografia ilustrativa",
+  "photoEffectivePpi": 430,
+  "color": "RGB, HEX da marca; conversão para perfil de impressão pela gráfica; não declarado PDF/X",
+  "qrSizeMm": 24,
+  "qrQuietZoneModules": 4,
+  "servicesSource": "Dados extraídos exclusivamente da imagem enviada pelo usuário em16/10/2026; design ignorado"
+}

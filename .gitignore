@@ -1,0 +1,15 @@
+dist/
+dist-production/
+node_modules/
+*.log
+tmp/
+.impeccable/live/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.DS_Store
+Thumbs.db

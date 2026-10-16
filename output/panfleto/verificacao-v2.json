@@ -1,0 +1,29 @@
+{
+  "qr": "https://wa.me/5521967643628",
+  "trimMm": [
+    148,
+    210
+  ],
+  "bleedMm": [
+    3.0,
+    3.0,
+    3.0,
+    3.0
+  ],
+  "fontsEmbedded": [
+    [
+      "AAAAAA+Manrope-SemiBold",
+      10324
+    ],
+    [
+      "AAAAAA+Manrope-Bold",
+      10500
+    ],
+    [
+      "AAAAAA+Manrope-Regular",
+      10484
+    ]
+  ],
+  "pdfHeader": "%PDF-1.4",
+  "passed": true
+}

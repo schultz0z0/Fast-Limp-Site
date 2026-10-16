@@ -1,0 +1,122 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-mobile-640.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-mobile-640.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-mobile-640.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 640,
+      "scrollWidth": 640,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-mobile-640.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 767,
+      "scrollWidth": 767,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-mobile-1280.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-1280.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-1280.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-1920.webp",
+      "skipTarget": "#conteudo"
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "utilityContained": true,
+      "h1InsideMain": true,
+      "footerOutsideMain": true,
+      "globalHeader": true,
+      "globalFooter": true,
+      "heroSource": "hero-1920.webp",
+      "skipTarget": "#conteudo"
+    }
+  ],
+  "dialogs": [
+    {
+      "id": "contact-dialog",
+      "contained": true,
+      "returnFocus": true
+    },
+    {
+      "id": "gallery-dialog",
+      "contained": true,
+      "returnFocus": true
+    },
+    {
+      "id": "pending-dialog",
+      "contained": true,
+      "returnFocus": true
+    }
+  ],
+  "skipFocus": "conteudo",
+  "errors": []
+}

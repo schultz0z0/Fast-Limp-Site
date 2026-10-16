@@ -1,0 +1,274 @@
+{
+  "status": "Versão 1.0 para validação do brandbook. Site não iniciado.",
+  "selection": "Símbolo do estudo03 + lettering e descritor do estudo01, conforme escolha do cliente.",
+  "method": "Reconstrução vetorial dos contornos raster, cores sólidas padronizadas; composição e versão óptica novas para validação.",
+  "sources": [
+    {
+      "file": "marca\\conceitos\\01-monograma-fl.png",
+      "sha256": "710a9d3ef3f4ec46fdf5f40158417caa077133ca9e5dabfb0dd9981915c4e9c6"
+    },
+    {
+      "file": "marca\\conceitos\\03-gesto-de-precisao.png",
+      "sha256": "44b04b17ea9c097c4a6121988f6d9142cc3eeabf2cf23fbf531238e9a9a9f4bd"
+    }
+  ],
+  "font": {
+    "name": "Manrope",
+    "source": "https://github.com/google/fonts/tree/main/ofl/manrope",
+    "license": "SIL OFL 1.1; OFL.txt incluído"
+  },
+  "logos": [
+    {
+      "composicao": "horizontal",
+      "cor": "principal",
+      "svg": "svg/fast-limp-horizontal-principal.svg",
+      "pdf": "pdf/fast-limp-horizontal-principal.pdf",
+      "png": "png/fast-limp-horizontal-principal.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "horizontal",
+      "cor": "negativa",
+      "svg": "svg/fast-limp-horizontal-negativa.svg",
+      "pdf": "pdf/fast-limp-horizontal-negativa.pdf",
+      "png": "png/fast-limp-horizontal-negativa.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "horizontal",
+      "cor": "escura",
+      "svg": "svg/fast-limp-horizontal-escura.svg",
+      "pdf": "pdf/fast-limp-horizontal-escura.pdf",
+      "png": "png/fast-limp-horizontal-escura.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "horizontal",
+      "cor": "branca",
+      "svg": "svg/fast-limp-horizontal-branca.svg",
+      "pdf": "pdf/fast-limp-horizontal-branca.pdf",
+      "png": "png/fast-limp-horizontal-branca.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "horizontal",
+      "cor": "preta",
+      "svg": "svg/fast-limp-horizontal-preta.svg",
+      "pdf": "pdf/fast-limp-horizontal-preta.pdf",
+      "png": "png/fast-limp-horizontal-preta.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "compacta",
+      "cor": "principal",
+      "svg": "svg/fast-limp-compacta-principal.svg",
+      "pdf": "pdf/fast-limp-compacta-principal.pdf",
+      "png": "png/fast-limp-compacta-principal.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "compacta",
+      "cor": "negativa",
+      "svg": "svg/fast-limp-compacta-negativa.svg",
+      "pdf": "pdf/fast-limp-compacta-negativa.pdf",
+      "png": "png/fast-limp-compacta-negativa.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "compacta",
+      "cor": "escura",
+      "svg": "svg/fast-limp-compacta-escura.svg",
+      "pdf": "pdf/fast-limp-compacta-escura.pdf",
+      "png": "png/fast-limp-compacta-escura.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "compacta",
+      "cor": "branca",
+      "svg": "svg/fast-limp-compacta-branca.svg",
+      "pdf": "pdf/fast-limp-compacta-branca.pdf",
+      "png": "png/fast-limp-compacta-branca.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "compacta",
+      "cor": "preta",
+      "svg": "svg/fast-limp-compacta-preta.svg",
+      "pdf": "pdf/fast-limp-compacta-preta.pdf",
+      "png": "png/fast-limp-compacta-preta.png",
+      "largura_png": 2400,
+      "altura_png": 550
+    },
+    {
+      "composicao": "vertical",
+      "cor": "principal",
+      "svg": "svg/fast-limp-vertical-principal.svg",
+      "pdf": "pdf/fast-limp-vertical-principal.pdf",
+      "png": "png/fast-limp-vertical-principal.png",
+      "largura_png": 2400,
+      "altura_png": 2462
+    },
+    {
+      "composicao": "vertical",
+      "cor": "negativa",
+      "svg": "svg/fast-limp-vertical-negativa.svg",
+      "pdf": "pdf/fast-limp-vertical-negativa.pdf",
+      "png": "png/fast-limp-vertical-negativa.png",
+      "largura_png": 2400,
+      "altura_png": 2462
+    },
+    {
+      "composicao": "vertical",
+      "cor": "escura",
+      "svg": "svg/fast-limp-vertical-escura.svg",
+      "pdf": "pdf/fast-limp-vertical-escura.pdf",
+      "png": "png/fast-limp-vertical-escura.png",
+      "largura_png": 2400,
+      "altura_png": 2462
+    },
+    {
+      "composicao": "vertical",
+      "cor": "branca",
+      "svg": "svg/fast-limp-vertical-branca.svg",
+      "pdf": "pdf/fast-limp-vertical-branca.pdf",
+      "png": "png/fast-limp-vertical-branca.png",
+      "largura_png": 2400,
+      "altura_png": 2462
+    },
+    {
+      "composicao": "vertical",
+      "cor": "preta",
+      "svg": "svg/fast-limp-vertical-preta.svg",
+      "pdf": "pdf/fast-limp-vertical-preta.pdf",
+      "png": "png/fast-limp-vertical-preta.png",
+      "largura_png": 2400,
+      "altura_png": 2462
+    },
+    {
+      "composicao": "simbolo",
+      "cor": "principal",
+      "svg": "svg/fast-limp-simbolo-principal.svg",
+      "pdf": "pdf/fast-limp-simbolo-principal.pdf",
+      "png": "png/fast-limp-simbolo-principal.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo",
+      "cor": "negativa",
+      "svg": "svg/fast-limp-simbolo-negativa.svg",
+      "pdf": "pdf/fast-limp-simbolo-negativa.pdf",
+      "png": "png/fast-limp-simbolo-negativa.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo",
+      "cor": "escura",
+      "svg": "svg/fast-limp-simbolo-escura.svg",
+      "pdf": "pdf/fast-limp-simbolo-escura.pdf",
+      "png": "png/fast-limp-simbolo-escura.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo",
+      "cor": "branca",
+      "svg": "svg/fast-limp-simbolo-branca.svg",
+      "pdf": "pdf/fast-limp-simbolo-branca.pdf",
+      "png": "png/fast-limp-simbolo-branca.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo",
+      "cor": "preta",
+      "svg": "svg/fast-limp-simbolo-preta.svg",
+      "pdf": "pdf/fast-limp-simbolo-preta.pdf",
+      "png": "png/fast-limp-simbolo-preta.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo-micro",
+      "cor": "principal",
+      "svg": "svg/fast-limp-simbolo-micro-principal.svg",
+      "pdf": "pdf/fast-limp-simbolo-micro-principal.pdf",
+      "png": "png/fast-limp-simbolo-micro-principal.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo-micro",
+      "cor": "negativa",
+      "svg": "svg/fast-limp-simbolo-micro-negativa.svg",
+      "pdf": "pdf/fast-limp-simbolo-micro-negativa.pdf",
+      "png": "png/fast-limp-simbolo-micro-negativa.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo-micro",
+      "cor": "escura",
+      "svg": "svg/fast-limp-simbolo-micro-escura.svg",
+      "pdf": "pdf/fast-limp-simbolo-micro-escura.pdf",
+      "png": "png/fast-limp-simbolo-micro-escura.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo-micro",
+      "cor": "branca",
+      "svg": "svg/fast-limp-simbolo-micro-branca.svg",
+      "pdf": "pdf/fast-limp-simbolo-micro-branca.pdf",
+      "png": "png/fast-limp-simbolo-micro-branca.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "simbolo-micro",
+      "cor": "preta",
+      "svg": "svg/fast-limp-simbolo-micro-preta.svg",
+      "pdf": "pdf/fast-limp-simbolo-micro-preta.pdf",
+      "png": "png/fast-limp-simbolo-micro-preta.png",
+      "largura_png": 1200,
+      "altura_png": 1156
+    },
+    {
+      "composicao": "assinatura",
+      "cor": "principal",
+      "svg": "svg/fast-limp-assinatura-principal.svg",
+      "pdf": "pdf/fast-limp-assinatura-principal.pdf",
+      "png": "png/fast-limp-assinatura-principal.png",
+      "largura_png": 2400,
+      "altura_png": 562
+    },
+    {
+      "composicao": "assinatura",
+      "cor": "negativa",
+      "svg": "svg/fast-limp-assinatura-negativa.svg",
+      "pdf": "pdf/fast-limp-assinatura-negativa.pdf",
+      "png": "png/fast-limp-assinatura-negativa.png",
+      "largura_png": 2400,
+      "altura_png": 562
+    },
+    {
+      "composicao": "assinatura",
+      "cor": "escura",
+      "svg": "svg/fast-limp-assinatura-escura.svg",
+      "pdf": "pdf/fast-limp-assinatura-escura.pdf",
+      "png": "png/fast-limp-assinatura-escura.png",
+      "largura_png": 2400,
+      "altura_png": 562
+    }
+  ]
+}

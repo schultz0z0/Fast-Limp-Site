@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { renderContent, whatsappUrl } from './content.mjs';
+const config = JSON.parse(await readFile('site/content.json', 'utf8'));
+const url = new URL(whatsappUrl(config.phone, 'Pós-obra (residências e comércios)'));
+assert.equal(url.pathname, '/5521967643628');
+assert.ok(url.searchParams.get('text').includes('Pós-obra (residências e comércios)'));
+assert.throws(() => whatsappUrl('(21) 96764-3628'));
+const fixture = '<button class="button" type="button" data-contact data-context="Vitrines">Pedir orçamento</button><!-- PREVIEW-ONLY:START --><section>DEMO</section><!-- PREVIEW-ONLY:END -->';
+assert.ok(renderContent(fixture, config).includes('DEMO'));
+const production = renderContent(fixture, config, true);
+assert.ok(!production.includes('DEMO'));
+assert.match(production, /<a class="button"/);
+assert.ok(production.includes('target="_blank"'));
+assert.ok(production.includes('Vitrines'));
+console.log('Conteúdo: número, mensagem com acentos, links sem JS e exclusão pública das demonstrações passaram.');

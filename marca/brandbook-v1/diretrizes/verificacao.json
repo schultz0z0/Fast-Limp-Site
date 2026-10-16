@@ -1,0 +1,61 @@
+[
+  {
+    "check": "SVG nativos sem raster embutido ou dependência de fonte",
+    "files": 29,
+    "passed": true
+  },
+  {
+    "check": "PNG com canal alpha real e conteúdo opaco",
+    "files": 28,
+    "passed": true
+  },
+  {
+    "check": "Logos PDF em vetor, sem imagem raster",
+    "files": 28,
+    "passed": true
+  },
+  {
+    "check": "SVG e PDF equivalentes",
+    "asset": "fast-limp-horizontal-principal",
+    "mean_delta_0_255": 0.0864,
+    "passed": true
+  },
+  {
+    "check": "SVG e PDF equivalentes",
+    "asset": "fast-limp-vertical-principal",
+    "mean_delta_0_255": 0.0842,
+    "passed": true
+  },
+  {
+    "check": "SVG e PDF equivalentes",
+    "asset": "fast-limp-simbolo-principal",
+    "mean_delta_0_255": 0.1195,
+    "passed": true
+  },
+  {
+    "check": "SVG e PDF equivalentes",
+    "asset": "fast-limp-simbolo-branca",
+    "mean_delta_0_255": 0.001,
+    "passed": true
+  },
+  {
+    "check": "Silhueta vetorial comparada à referência escolhida",
+    "asset": "fast-limp-simbolo-principal",
+    "intersection_over_union": 0.98688,
+    "passed": true
+  },
+  {
+    "check": "Silhueta vetorial comparada à referência escolhida",
+    "asset": "fast-limp-assinatura-principal",
+    "intersection_over_union": 0.98973,
+    "passed": true
+  },
+  {
+    "check": "Dimensões de avatares, posts, story e capa",
+    "passed": true
+  },
+  {
+    "check": "Brandbook 24 páginas, texto extraível e dentro da página",
+    "passed": true
+  }
+]

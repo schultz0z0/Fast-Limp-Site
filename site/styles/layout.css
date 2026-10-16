@@ -1,0 +1,36 @@
+/* FL-12 — banner contínuo com o azul oficial sobre a fotografia. */
+.site-header{position:absolute;top:24px;left:0;right:0}
+.hero-banner{position:relative;isolation:isolate;display:flex;align-items:center;min-height:100svh;background:var(--primitive-color-blue);color:var(--semantic-color-text)}
+.hero-banner .hero-scene{position:absolute;inset:0;height:auto;z-index:-2}
+.hero-banner .hero-photo::after{display:none}
+.hero-banner .hero-photo img{object-position:72% center}
+.hero-gradient{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#1c94f0 0%,#1c94f0 41%,rgba(28,148,240,.92) 46%,rgba(28,148,240,.46) 56%,rgba(28,148,240,0) 69%);pointer-events:none}
+.hero-banner .hero-composition{display:block;position:relative;z-index:1;margin-top:0;padding-block:168px 88px}
+.hero-banner .hero-panel{width:100%;max-width:min(480px,50%);padding:0;isolation:auto}
+.hero-banner .hero-panel::before{content:none;display:none}
+.hero-banner .hero-panel .eyebrow{font-size:13px;margin-bottom:20px}
+.hero-banner .hero-panel .eyebrow::before{display:none}
+.hero-banner .hero-panel h1{max-width:none;font-size:64px;line-height:1.04;letter-spacing:-.04em;margin-bottom:24px}
+.hero-banner .hero-panel p{max-width:42ch;font-size:16px;line-height:1.6;margin-bottom:28px}
+.hero-banner .hero-panel .button{min-height:54px;padding-inline:28px}
+.hero-audiences{display:flex;align-items:center;gap:24px;max-width:480px;margin-top:24px}
+.hero-audiences .text-link{font-size:13px;color:var(--semantic-color-text)}
+@media(min-width:768px) and (max-width:1279px){
+  .hero-gradient{background:linear-gradient(90deg,#1c94f0 0%,#1c94f0 51%,rgba(28,148,240,.94) 56%,rgba(28,148,240,.38) 69%,rgba(28,148,240,0) 83%)}
+  .hero-banner .hero-panel h1{font-size:clamp(44px,5vw,60px)}
+  .hero-banner .hero-panel p{font-size:15px}
+}
+@media(max-width:767px){
+  .site-header{top:16px;min-height:76px;padding:12px 16px}
+  .hero-banner{min-height:0;align-items:start}
+  .hero-banner .hero-scene{top:0;bottom:auto;height:clamp(320px,100vw,430px)}
+  .hero-banner .hero-photo img{object-position:70% 25%}
+  .hero-gradient{background:linear-gradient(180deg,rgba(28,148,240,0) 0%,rgba(28,148,240,0) 24%,rgba(28,148,240,.2) 34%,rgba(28,148,240,.9) 45%,#1c94f0 53%,#1c94f0 100%)}
+  .hero-banner .hero-composition{padding-block:clamp(330px,90vw,420px) 40px}
+  .hero-banner .hero-panel{max-width:440px}
+  .hero-banner .hero-panel .eyebrow{font-size:12px;margin-bottom:16px}
+  .hero-banner .hero-panel h1{font-size:clamp(36px,10.25vw,46px);line-height:1.08;margin-bottom:20px}
+  .hero-banner .hero-panel p{font-size:15px;max-width:36ch;margin-bottom:24px}
+  .hero-banner .hero-panel .button{width:auto;max-width:100%;min-height:52px;padding-inline:24px}
+  .hero-audiences{display:none}
+}

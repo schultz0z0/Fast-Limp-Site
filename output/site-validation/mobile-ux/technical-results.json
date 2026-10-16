@@ -1,0 +1,82 @@
+{
+  "engine": "Chromium Playwright; CDP Input.dispatchTouchEvent, no physical device",
+  "widths": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 11331,
+      "overflow": [],
+      "targets": []
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 10657,
+      "overflow": [],
+      "targets": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 10832,
+      "overflow": [],
+      "targets": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 8177,
+      "overflow": [],
+      "targets": []
+    }
+  ],
+  "touch": {
+    "before": {
+      "left": 0,
+      "top": 1676,
+      "touchAction": "auto"
+    },
+    "afterHorizontal": {
+      "left": 325,
+      "top": 1676
+    },
+    "afterVertical": {
+      "left": 325,
+      "top": 1841
+    }
+  },
+  "interactions": {
+    "menuOpen": true,
+    "menuEscapeFocus": true,
+    "faq": "true",
+    "gallery": {
+      "loaded": true,
+      "src": "http://127.0.0.1:4173/assets/photos/gallery-01-1920.webp",
+      "dialogOpen": true
+    },
+    "galleryReturnFocus": true,
+    "cta": {
+      "url": "https://wa.me/5521967643628?text=Ol%C3%A1%2C%20Fast%20Limp!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20limpeza%20de%20vidros.%20Meu%20bairro%20no%20Rio%20de%20Janeiro%20%C3%A9%3A%20",
+      "intercepted": true
+    },
+    "carouselEndDisabled": true,
+    "carouselHomeDisabled": true
+  },
+  "errors": [],
+  "production": {
+    "width": 390,
+    "height": 8486,
+    "scrollWidth": 390,
+    "team": false,
+    "testimonials": false,
+    "sections": [
+      "inicio",
+      "sobre",
+      "servicos",
+      "referencias",
+      "como-funciona",
+      "diferenciais",
+      "duvidas"
+    ]
+  }
+}

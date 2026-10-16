@@ -1,0 +1,470 @@
+{
+  "browser": "Chromium / Playwright bundled runtime",
+  "routing": "Browser plugin not available; existing bundled Playwright used, no dependency installed",
+  "results": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 14196,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 1591
+        },
+        {
+          "id": "sobre",
+          "top": 1623,
+          "height": 1033
+        },
+        {
+          "id": "servicos",
+          "top": 2656,
+          "height": 915
+        },
+        {
+          "id": "referencias",
+          "top": 3571,
+          "height": 1785
+        },
+        {
+          "id": "como-funciona",
+          "top": 5356,
+          "height": 1137
+        },
+        {
+          "id": "diferenciais",
+          "top": 6493,
+          "height": 1032
+        },
+        {
+          "id": "depoimentos",
+          "top": 7525,
+          "height": 548
+        },
+        {
+          "id": "equipe",
+          "top": 8073,
+          "height": 1720
+        },
+        {
+          "id": "duvidas",
+          "top": 9793,
+          "height": 1279
+        },
+        {
+          "id": "conteudos",
+          "top": 11072,
+          "height": 1666
+        },
+        {
+          "id": "contato",
+          "top": 12738,
+          "height": 1458
+        }
+      ],
+      "logoWidth": 156
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 13188,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 1276
+        },
+        {
+          "id": "sobre",
+          "top": 1308,
+          "height": 1020
+        },
+        {
+          "id": "servicos",
+          "top": 2328,
+          "height": 910
+        },
+        {
+          "id": "referencias",
+          "top": 3238,
+          "height": 1034
+        },
+        {
+          "id": "como-funciona",
+          "top": 4272,
+          "height": 1160
+        },
+        {
+          "id": "diferenciais",
+          "top": 5433,
+          "height": 1042
+        },
+        {
+          "id": "depoimentos",
+          "top": 6475,
+          "height": 521
+        },
+        {
+          "id": "equipe",
+          "top": 6996,
+          "height": 1888
+        },
+        {
+          "id": "duvidas",
+          "top": 8883,
+          "height": 1161
+        },
+        {
+          "id": "conteudos",
+          "top": 10044,
+          "height": 1746
+        },
+        {
+          "id": "contato",
+          "top": 11790,
+          "height": 1397
+        }
+      ],
+      "logoWidth": 156
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 13235,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 1254
+        },
+        {
+          "id": "sobre",
+          "top": 1286,
+          "height": 1029
+        },
+        {
+          "id": "servicos",
+          "top": 2315,
+          "height": 907
+        },
+        {
+          "id": "referencias",
+          "top": 3222,
+          "height": 1034
+        },
+        {
+          "id": "como-funciona",
+          "top": 4256,
+          "height": 1155
+        },
+        {
+          "id": "diferenciais",
+          "top": 5411,
+          "height": 1001
+        },
+        {
+          "id": "depoimentos",
+          "top": 6412,
+          "height": 521
+        },
+        {
+          "id": "equipe",
+          "top": 6932,
+          "height": 2008
+        },
+        {
+          "id": "duvidas",
+          "top": 8940,
+          "height": 1091
+        },
+        {
+          "id": "conteudos",
+          "top": 10032,
+          "height": 1806
+        },
+        {
+          "id": "contato",
+          "top": 11838,
+          "height": 1397
+        }
+      ],
+      "logoWidth": 156
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 8981,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 971
+        },
+        {
+          "id": "sobre",
+          "top": 1003,
+          "height": 1145
+        },
+        {
+          "id": "servicos",
+          "top": 2148,
+          "height": 878
+        },
+        {
+          "id": "referencias",
+          "top": 3026,
+          "height": 788
+        },
+        {
+          "id": "como-funciona",
+          "top": 3814,
+          "height": 1050
+        },
+        {
+          "id": "diferenciais",
+          "top": 4864,
+          "height": 656
+        },
+        {
+          "id": "depoimentos",
+          "top": 5520,
+          "height": 419
+        },
+        {
+          "id": "equipe",
+          "top": 5939,
+          "height": 654
+        },
+        {
+          "id": "duvidas",
+          "top": 6593,
+          "height": 687
+        },
+        {
+          "id": "conteudos",
+          "top": 7281,
+          "height": 740
+        },
+        {
+          "id": "contato",
+          "top": 8021,
+          "height": 961
+        }
+      ],
+      "logoWidth": 156
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 8843,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 1044
+        },
+        {
+          "id": "sobre",
+          "top": 1076,
+          "height": 644
+        },
+        {
+          "id": "servicos",
+          "top": 1720,
+          "height": 939
+        },
+        {
+          "id": "referencias",
+          "top": 2659,
+          "height": 903
+        },
+        {
+          "id": "como-funciona",
+          "top": 3562,
+          "height": 1206
+        },
+        {
+          "id": "diferenciais",
+          "top": 4767,
+          "height": 619
+        },
+        {
+          "id": "depoimentos",
+          "top": 5386,
+          "height": 438
+        },
+        {
+          "id": "equipe",
+          "top": 5824,
+          "height": 792
+        },
+        {
+          "id": "duvidas",
+          "top": 6616,
+          "height": 712
+        },
+        {
+          "id": "conteudos",
+          "top": 7329,
+          "height": 827
+        },
+        {
+          "id": "contato",
+          "top": 8156,
+          "height": 688
+        }
+      ],
+      "logoWidth": 208
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 9686,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 1138
+        },
+        {
+          "id": "sobre",
+          "top": 1170,
+          "height": 766
+        },
+        {
+          "id": "servicos",
+          "top": 1935,
+          "height": 998
+        },
+        {
+          "id": "referencias",
+          "top": 2934,
+          "height": 913
+        },
+        {
+          "id": "como-funciona",
+          "top": 3847,
+          "height": 1350
+        },
+        {
+          "id": "diferenciais",
+          "top": 5196,
+          "height": 709
+        },
+        {
+          "id": "depoimentos",
+          "top": 5906,
+          "height": 448
+        },
+        {
+          "id": "equipe",
+          "top": 6354,
+          "height": 961
+        },
+        {
+          "id": "duvidas",
+          "top": 7315,
+          "height": 689
+        },
+        {
+          "id": "conteudos",
+          "top": 8005,
+          "height": 939
+        },
+        {
+          "id": "contato",
+          "top": 8944,
+          "height": 743
+        }
+      ],
+      "logoWidth": 208
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "height": 9686,
+      "overflow": [],
+      "brokenImages": [],
+      "font": true,
+      "sections": [
+        {
+          "id": "inicio",
+          "top": 32,
+          "height": 1138
+        },
+        {
+          "id": "sobre",
+          "top": 1170,
+          "height": 766
+        },
+        {
+          "id": "servicos",
+          "top": 1935,
+          "height": 998
+        },
+        {
+          "id": "referencias",
+          "top": 2934,
+          "height": 913
+        },
+        {
+          "id": "como-funciona",
+          "top": 3847,
+          "height": 1350
+        },
+        {
+          "id": "diferenciais",
+          "top": 5196,
+          "height": 709
+        },
+        {
+          "id": "depoimentos",
+          "top": 5906,
+          "height": 448
+        },
+        {
+          "id": "equipe",
+          "top": 6354,
+          "height": 961
+        },
+        {
+          "id": "duvidas",
+          "top": 7315,
+          "height": 689
+        },
+        {
+          "id": "conteudos",
+          "top": 8005,
+          "height": 939
+        },
+        {
+          "id": "contato",
+          "top": 8944,
+          "height": 743
+        }
+      ],
+      "logoWidth": 208
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

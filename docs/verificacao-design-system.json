@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-15",
+  "status": "passed",
+  "tokens": 155,
+  "tokenAliases": 62,
+  "sections": 11,
+  "localSourcesAndBrandAssetsChecked": 19,
+  "checks": [
+    "JSON sintaticamente válido",
+    "Aliases resolvidos sem ciclos",
+    "Cores iguais ao brandbook",
+    "Fontes, logos, PDF e referências existentes",
+    "Dimensões originais das capturas confirmadas",
+    "IDs, ordem e roteiro alinhados",
+    "Instruções obsoletas substituídas",
+    "Contrastes recalculados",
+    "Links locais e fences Markdown válidos"
+  ],
+  "artifacts": {
+    "DESIGN.md": {
+      "sha256": "c7d3380ef3ea13120d08997b13e455ef61d2899d8e495ea6f901b02471f82148",
+      "bytes": 26568
+    },
+    "design-system.json": {
+      "sha256": "75d951d3dbc02712e50e268e1a0d2177d99de969a5b718d5d58616cc05dc362d",
+      "bytes": 40362
+    },
+    "prompts-site-fast-limp.md": {
+      "sha256": "98310159c21f09fd44f4db9e1ee4650991d2297e63621f0f8c829f22b553c28c",
+      "bytes": 25206
+    },
+    "PROMPT-INICIAR-SITE.md": {
+      "sha256": "80ef1342b184f31c633b2c518368d6851faf989b7ce6f38d12315759019b535b",
+      "bytes": 1632
+    }
+  }
+}

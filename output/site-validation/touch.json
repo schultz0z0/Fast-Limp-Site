@@ -1,0 +1,118 @@
+{
+  "title": "Fast Limp — Limpeza de vidros para sua casa e empresa",
+  "menuTap": true,
+  "navigationTap": true,
+  "carouselTouchSwipe": {
+    "passed": true,
+    "scrollLeft": 234
+  },
+  "contactTap": true,
+  "resources": [
+    {
+      "name": "Manrope-Variable.ttf",
+      "transfer": 165000,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "tokens.css",
+      "transfer": 8194,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "middle.css",
+      "transfer": 7433,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "base.css",
+      "transfer": 11534,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "end.css",
+      "transfer": 10075,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "layout.css",
+      "transfer": 476,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "app.js",
+      "transfer": 8015,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "fast-limp-compacta-negativa.svg",
+      "transfer": 11650,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "hero-mobile-640.webp",
+      "transfer": 56890,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "fast-limp-compacta-principal.svg",
+      "transfer": 11651,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "about-01-640.webp",
+      "transfer": 37262,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "about-02-640.webp",
+      "transfer": 10708,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "service-01-640.webp",
+      "transfer": 39286,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "about-03-640.webp",
+      "transfer": 19678,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "service-03-640.webp",
+      "transfer": 48274,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "service-02-640.webp",
+      "transfer": 30694,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "gallery-01-640.webp",
+      "transfer": 75400,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "service-04-640.webp",
+      "transfer": 21354,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "gallery-02-640.webp",
+      "transfer": 14550,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "gallery-03-640.webp",
+      "transfer": 57142,
+      "origin": "http://127.0.0.1:4173"
+    },
+    {
+      "name": "gallery-04-640.webp",
+      "transfer": 12644,
+      "origin": "http://127.0.0.1:4173"
+    }
+  ],
+  "note": "Touch emulado em Chromium, sem aparelho físico"
+}

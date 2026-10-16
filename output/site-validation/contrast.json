@@ -1,0 +1,1916 @@
+{
+  "checked": 191,
+  "failures": [],
+  "rows": [
+    {
+      "text": "Pular para o conteúdo",
+      "tag": "A",
+      "class": "skip-link",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros · Residências e empresas",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Prévia local · informações de contato",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Serviços",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Referências",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como funciona",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dúvidas",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Solicitar orçamento",
+      "tag": "BUTTON",
+      "class": "button header-action",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros limpos. Uma nova impressão do seu espaço.",
+      "tag": "H1",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros para residências e empresas, com atenção aos detalhes e à apre",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Solicitar um orçamento",
+      "tag": "BUTTON",
+      "class": "button button-light",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Para sua casa. Para sua empresa.",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Cuidado para o seu espaço",
+      "tag": "DIV",
+      "class": "conversion-heading",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Residências",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Mais clareza nos ambientes que fazem parte da sua vida.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para minha casa ↗",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Empresas",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Uma boa apresentação começa nos detalhes do seu espaço.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para minha empresa ↗",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fotografia ilustrativa. Não representa equipe ou serviço realizado pela Fast Lim",
+      "tag": "P",
+      "class": "container hero-caption",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fotografias ilustrativas. Não representam a equipe da Fast Limp.",
+      "tag": "FIGCAPTION",
+      "class": "photo-note",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre a Fast Limp",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Mais luz para viver. Mais clareza para trabalhar.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros para residências e empresas. A Fast Limp tem uma proposta clar",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para a sua casa",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros que fazem parte dos seus espaços de viver.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para a sua empresa",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Transparência na apresentação do seu ambiente profissional.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conte o que você precisa",
+      "tag": "BUTTON",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Um olhar para cada tipo de espaço.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "←",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "→",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Catálogo em revisão: os exemplos abaixo são propostas a confirmar com a Fast Lim",
+      "tag": "P",
+      "class": "services-review small",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Proposta · a confirmar",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vidros residenciais",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Janelas e superfícies de vidro em ambientes de casa.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Consultar disponibilidade",
+      "tag": "BUTTON",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Proposta · a confirmar",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Ambientes corporativos",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Vidros que integram os espaços de trabalho e convivência.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Consultar disponibilidade",
+      "tag": "BUTTON",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Proposta · a confirmar",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vitrines e lojas",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Superfícies de vidro na apresentação de espaços comerciais.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Consultar disponibilidade",
+      "tag": "BUTTON",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Proposta · a confirmar",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Janelas e esquadrias",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Detalhes do vidro e de seu entorno para avaliar no orçamento.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Consultar disponibilidade",
+      "tag": "BUTTON",
+      "class": "text-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fotografias ilustrativas. A oferta e o escopo dependem de confirmação.",
+      "tag": "P",
+      "class": "photo-note",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fale sobre o seu espaço",
+      "tag": "A",
+      "class": "text-link",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Inspiração em cada detalhe",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Referências de serviço",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Vidro, luz e diferentes perspectivas. Explore as imagens.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "gallery-expand",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Imagens ilustrativas, sem vínculo com clientes, equipe ou serviços executados pe",
+      "tag": "P",
+      "class": "photo-note gallery-note",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como funciona",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Da primeira conversa ao cuidado com o vidro.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Fluxo proposto para revisão. As etapas e condições de atendimento ainda precisam",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "01",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conte o que precisa",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Apresente seu espaço e o que gostaria de avaliar.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "02",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Alinhe os detalhes",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Escopo, acesso e condições ficam sujeitos à avaliação.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "03",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Combine a limpeza",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Disponibilidade e agendamento precisam ser confirmados.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "04",
+      "tag": "SPAN",
+      "class": "process-number",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Revise o combinado",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Proposta de conferência do escopo ao final do atendimento.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fotografia ilustrativa. Este quadro é estático; vídeo institucional ainda não fo",
+      "tag": "FIGCAPTION",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Por que Fast Limp",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "O cuidado que valoriza cada detalhe.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Vidros fazem parte da primeira impressão de um ambiente. Nossa proposta é trazer",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Olhar para os detalhes",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Seu espaço em primeiro lugar",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Clareza na comunicação",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Casas e empresas",
+      "tag": "LI",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conversar sobre meu espaço",
+      "tag": "BUTTON",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Proposta de marca. Diferenciais operacionais em confirmação.",
+      "tag": "P",
+      "class": "small why-review",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Cuidado nos detalhes",
+      "tag": "STRONG",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Mais clareza para o seu espaço.",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Imagem ilustrativa; não retrata equipe ou serviço realizado.",
+      "tag": "FIGCAPTION",
+      "class": "small",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Depoimentos",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "A experiência de quem confia.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "‹",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Depoimentos — conteúdo pendente",
+      "tag": "P",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Aqui será o espaço das experiências reais com a Fast Limp.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Aguardamos relatos autorizados e sua identificação. A navegação será habilitada ",
+      "tag": "P",
+      "class": "small",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "›",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Nossa equipe",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Pessoas por trás de cada cuidado.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Sobre a equipe",
+      "tag": "BUTTON",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Apresentação da equipe em preparação. Os espaços abaixo não representam pessoas.",
+      "tag": "P",
+      "class": "small team-intro",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "01",
+      "tag": "SPAN",
+      "class": "team-slot-number",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Espaço de apresentação",
+      "tag": "SPAN",
+      "class": "team-art-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Identificação pendente",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Nome, função e fotografia a confirmar.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "02",
+      "tag": "SPAN",
+      "class": "team-slot-number",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Espaço de apresentação",
+      "tag": "SPAN",
+      "class": "team-art-label",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Identificação pendente",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dados reais serão apresentados aqui.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "03",
+      "tag": "SPAN",
+      "class": "team-slot-number",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Espaço de apresentação",
+      "tag": "SPAN",
+      "class": "team-art-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Identificação pendente",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Publicação após autorização da equipe.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dúvidas frequentes",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Mais clareza antes de começar.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 14.44,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Entenda o que já está definido e quais detalhes serão confirmados antes do atend",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(239, 240, 240)",
+      "ratio": 7.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Ainda tem uma dúvida?",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Veja a situação dos canais de contato nesta prévia local.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Informações de contato",
+      "tag": "BUTTON",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Como solicitar um orçamento?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "O canal oficial de orçamento ainda está em confirmação. Nesta prévia, os botões ",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "A Fast Limp atende casas e empresas?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Quais vidros podem ser atendidos?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "É possível programar a limpeza?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como preparar o ambiente?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Qual é a região de atendimento?",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "⌄",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Conteúdos",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Um olhar mais claro sobre o cuidado.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Espaço editorial em preparação para compartilhar informações sobre vidros e ambi",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Prévia editorial · conteúdo pendente",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Cuidado com os vidros",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Tema proposto para um futuro conteúdo. Texto e orientações aguardam revisão.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre este conteúdo",
+      "tag": "BUTTON",
+      "class": "text-link pending-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Prévia editorial · conteúdo pendente",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Clareza no dia a dia",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Espaço reservado para informações úteis sobre os ambientes da sua rotina.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre este conteúdo",
+      "tag": "BUTTON",
+      "class": "text-link pending-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Prévia editorial · conteúdo pendente",
+      "tag": "SPAN",
+      "class": "pending-label",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Ambientes e detalhes",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Um futuro olhar sobre a presença dos vidros em casas e empresas.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre este conteúdo",
+      "tag": "BUTTON",
+      "class": "text-link pending-link",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(18, 116, 194)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 4.88,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fotografias ilustrativas. Não representam equipe, clientes ou trabalhos da Fast ",
+      "tag": "P",
+      "class": "small editorial-caption",
+      "fg": "rgb(45, 84, 111)",
+      "bg": "rgb(255, 255, 255)",
+      "ratio": 8.05,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Fast Limp · Limpeza de vidros",
+      "tag": "SPAN",
+      "class": "eyebrow",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Mais clareza para o seu próximo cuidado.",
+      "tag": "H2",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Solicitar um orçamento",
+      "tag": "BUTTON",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Limpeza de vidros para residências e empresas. Cuidado nos detalhes, clareza nos",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Perfis oficiais de redes sociais em confirmação.",
+      "tag": "P",
+      "class": "footer-pending",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Explore",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Sobre a Fast Limp",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Serviços",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Referências visuais",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Como funciona",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Dúvidas frequentes",
+      "tag": "A",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Para o seu espaço",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Residências",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Empresas",
+      "tag": "BUTTON",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Catálogo e condições de atendimento em confirmação.",
+      "tag": "P",
+      "class": "footer-pending",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Vamos conversar",
+      "tag": "H3",
+      "class": "",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 16.49,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Telefone, WhatsApp e região de atendimento aguardam confirmação.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Ver informações de contato",
+      "tag": "BUTTON",
+      "class": "button",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(9, 33, 49)",
+      "bg": "rgb(28, 148, 240)",
+      "ratio": 5.14,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "text": "Revisão local: nenhum dado é enviado por esta página.",
+      "tag": "P",
+      "class": "footer-pending",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "© Fast Limp. Prévia local.",
+      "tag": "P",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "2026",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(239, 240, 240)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 14.44,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "Informações de privacidade",
+      "tag": "BUTTON",
+      "class": "footer-privacy",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "text": "↗",
+      "tag": "SPAN",
+      "class": "",
+      "fg": "rgb(90, 183, 245)",
+      "bg": "rgb(9, 33, 49)",
+      "ratio": 7.48,
+      "threshold": 4.5,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "pageHeight": 10832,
+  "sections": [
+    {
+      "id": "inicio",
+      "top": 0,
+      "height": 726,
+      "width": 390
+    },
+    {
+      "id": "sobre",
+      "top": 726,
+      "height": 977,
+      "width": 390
+    },
+    {
+      "id": "servicos",
+      "top": 1703,
+      "height": 878,
+      "width": 390
+    },
+    {
+      "id": "referencias",
+      "top": 2580,
+      "height": 978,
+      "width": 390
+    },
+    {
+      "id": "como-funciona",
+      "top": 3559,
+      "height": 1103,
+      "width": 390
+    },
+    {
+      "id": "diferenciais",
+      "top": 4661,
+      "height": 956,
+      "width": 390
+    },
+    {
+      "id": "depoimentos",
+      "top": 5617,
+      "height": 477,
+      "width": 390
+    },
+    {
+      "id": "equipe",
+      "top": 6094,
+      "height": 1869,
+      "width": 390
+    },
+    {
+      "id": "duvidas",
+      "top": 7963,
+      "height": 1385,
+      "width": 390
+    },
+    {
+      "id": "contato",
+      "top": 9348,
+      "height": 1484,
+      "width": 390
+    }
+  ],
+  "undersizedTargets": [],
+  "smallText": [
+    {
+      "text": "Vidros que fazem parte dos seus espaços de viver.",
+      "font": "13px",
+      "section": "sobre"
+    },
+    {
+      "text": "Transparência na apresentação do seu ambiente profissional.",
+      "font": "13px",
+      "section": "sobre"
+    },
+    {
+      "text": "Atendimento no Rio de Janeiro",
+      "font": "12px",
+      "section": "servicos"
+    },
+    {
+      "text": "Abra uma conversa com a Fast Limp pelo botão de orçamento.",
+      "font": "13px",
+      "section": "como-funciona"
+    },
+    {
+      "text": "Informe o bairro e o serviço. Fotos e medidas ajudam na avaliação.",
+      "font": "13px",
+      "section": "como-funciona"
+    },
+    {
+      "text": "Converse sobre escopo, acesso, valor e condições para seu local.",
+      "font": "13px",
+      "section": "como-funciona"
+    },
+    {
+      "text": "Consulte a disponibilidade e confirme o agendamento no atendimento.",
+      "font": "13px",
+      "section": "como-funciona"
+    },
+    {
+      "text": "Limpeza de vidros",
+      "font": "12px",
+      "section": "equipe"
+    },
+    {
+      "text": "Limpeza de vidros",
+      "font": "12px",
+      "section": "equipe"
+    },
+    {
+      "text": "Limpeza de vidros",
+      "font": "12px",
+      "section": "equipe"
+    },
+    {
+      "text": "© 2026 Fast Limp",
+      "font": "12px",
+      "section": "contato"
+    }
+  ],
+  "contactPositions": [
+    {
+      "text": "Solicitar um orçamento\n↗",
+      "top": 632,
+      "height": 54,
+      "width": 244,
+      "section": "inicio"
+    },
+    {
+      "text": "Conte o que você precisa\n↗",
+      "top": 1593,
+      "height": 54,
+      "width": 257,
+      "section": "sobre"
+    },
+    {
+      "text": "Pedir orçamento\n↗",
+      "top": 2354,
+      "height": 44,
+      "width": 134,
+      "section": "servicos"
+    },
+    {
+      "text": "Pedir orçamento\n↗",
+      "top": 2354,
+      "height": 44,
+      "width": 134,
+      "section": "servicos"
+    },
+    {
+      "text": "Pedir orçamento\n↗",
+      "top": 2354,
+      "height": 44,
+      "width": 134,
+      "section": "servicos"
+    },
+    {
+      "text": "Pedir orçamento\n↗",
+      "top": 2354,
+      "height": 44,
+      "width": 134,
+      "section": "servicos"
+    },
+    {
+      "text": "Pedir orçamento\n↗",
+      "top": 2354,
+      "height": 44,
+      "width": 134,
+      "section": "servicos"
+    },
+    {
+      "text": "Conversar sobre meu espaço\n↗",
+      "top": 5121,
+      "height": 54,
+      "width": 285,
+      "section": "diferenciais"
+    },
+    {
+      "text": "Tirar uma dúvida\n↗",
+      "top": 8363,
+      "height": 54,
+      "width": 302,
+      "section": "duvidas"
+    },
+    {
+      "text": "Solicitar um orçamento\n↗",
+      "top": 9530,
+      "height": 54,
+      "width": 350,
+      "section": "contato"
+    },
+    {
+      "text": "Vidros residenciais ↗",
+      "top": 10189,
+      "height": 44,
+      "width": 350,
+      "section": "contato"
+    },
+    {
+      "text": "Vidros comerciais ↗",
+      "top": 10233,
+      "height": 44,
+      "width": 350,
+      "section": "contato"
+    },
+    {
+      "text": "Pós-obra ↗",
+      "top": 10277,
+      "height": 44,
+      "width": 350,
+      "section": "contato"
+    },
+    {
+      "text": "Fachadas de vidro ↗",
+      "top": 10321,
+      "height": 44,
+      "width": 350,
+      "section": "contato"
+    },
+    {
+      "text": "Vitrines ↗",
+      "top": 10365,
+      "height": 44,
+      "width": 350,
+      "section": "contato"
+    },
+    {
+      "text": "(21) 96764-3628\n↗",
+      "top": 10550,
+      "height": 44,
+      "width": 134,
+      "section": "contato"
+    },
+    {
+      "text": "Chamar no WhatsApp\n↗",
+      "top": 10614,
+      "height": 54,
+      "width": 350,
+      "section": "contato"
+    }
+  ],
+  "initialServiceVisible": [
+    {
+      "title": "Vidros residenciais",
+      "x": 20,
+      "width": 301
+    },
+    {
+      "title": "Vidros comerciais",
+      "x": 345,
+      "width": 301
+    },
+    {
+      "title": "Pós-obra",
+      "x": 670,
+      "width": 301
+    },
+    {
+      "title": "Fachadas de vidro",
+      "x": 995,
+      "width": 301
+    },
+    {
+      "title": "Vitrines",
+      "x": 1320,
+      "width": 301
+    }
+  ]
+}

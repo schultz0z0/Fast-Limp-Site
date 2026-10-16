@@ -1,0 +1,22 @@
+﻿[
+  {
+    "antipattern": "broken-image",
+    "name": "Broken or placeholder image",
+    "description": "<img> tags with empty src, missing src, or placeholder values ship as broken-image boxes. Use real images, generated assets, or remove the tag.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "D:\\Projetos SaaS\\Portfolio de Sites\\Fast Limp - Limpeza de Vidros\\site\\index.html",
+    "line": 0,
+    "snippet": "<img> with no src attribute"
+  },
+  {
+    "antipattern": "dark-glow",
+    "name": "Glowing shadow accents",
+    "description": "Colored glow shadows — a zero-offset chromatic halo (box- or text-shadow) on any background, or any colored blurred shadow on a dark background — are the default \"cool\" look of AI-generated UIs. Use neutral elevation shadows and subtle, purposeful lighting instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "D:\\Projetos SaaS\\Portfolio de Sites\\Fast Limp - Limpeza de Vidros\\site\\index.html",
+    "line": 0,
+    "snippet": "Colored box-shadow glow (#092131) on dark page"
+  }
+]

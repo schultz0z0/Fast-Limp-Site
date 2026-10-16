@@ -1,0 +1,40 @@
+import {createRequire} from 'node:module';
+import {readFile,writeFile} from 'node:fs/promises';
+const require=createRequire(import.meta.url);
+const {chromium}=require('C:/Users/rapha/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await chromium.launch({headless:true});
+const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'});
+const page=await ctx.newPage();
+const result={engine:'Chromium Playwright; CDP Input.dispatchTouchEvent, no physical device',widths:[],touch:{},interactions:{},errors:[]};
+page.on('pageerror',e=>result.errors.push(e.message));
+await page.goto('http://127.0.0.1:4173'); await page.evaluate(()=>document.fonts.ready);
+for(const width of [320,360,390,768]){
+ await page.setViewportSize({width,height:844});
+ result.widths.push(await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,overflow:[...document.querySelectorAll('body *')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&getComputedStyle(e).position!=='fixed'&&(r.left< -1||r.right>innerWidth+1)&&!e.closest('[data-track]')}).map(e=>({tag:e.tagName,cls:e.className,x:e.getBoundingClientRect().x,w:e.getBoundingClientRect().width})).slice(0,15),targets:[...document.querySelectorAll('a,button,[tabindex="0"]')].filter(e=>e.getBoundingClientRect().width&&getComputedStyle(e).visibility==='visible').map(e=>({name:e.getAttribute('aria-label')||e.textContent.trim().slice(0,70),width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height})).filter(e=>e.width<44||e.height<44)})));
+}
+await page.setViewportSize({width:390,height:844});
+await page.locator('#menu-toggle').tap(); result.interactions.menuOpen=await page.locator('#mobile-menu').isVisible();
+await page.keyboard.press('Escape');result.interactions.menuEscapeFocus=await page.locator('#menu-toggle').evaluate(e=>document.activeElement===e);
+const faq=page.locator('[data-accordion]').nth(1); await faq.tap(); result.interactions.faq=await faq.getAttribute('aria-expanded');
+await page.locator('[data-gallery]').first().tap();
+await page.locator('#gallery-image').evaluate(e=>e.decode());
+result.interactions.gallery=await page.locator('#gallery-image').evaluate(e=>({loaded:e.naturalWidth>0,src:e.currentSrc,dialogOpen:e.closest('dialog').open}));
+await page.keyboard.press('Escape');result.interactions.galleryReturnFocus=await page.locator('[data-gallery]').first().evaluate(e=>document.activeElement===e);
+await ctx.route('https://wa.me/**',r=>r.fulfill({status:200,body:'Intercepted locally; no message sent'}));
+const popupPromise=page.waitForEvent('popup');await page.locator('.hero-panel [data-contact]').tap();const popup=await popupPromise;await popup.waitForLoadState();result.interactions.cta={url:popup.url(),intercepted:true};await popup.close();
+const track=page.locator('[data-track]').first();await track.scrollIntoViewIfNeeded();await page.evaluate(()=>scrollBy(0,-100));
+const cdps=await ctx.newCDPSession(page);
+async function swipe(x1,y1,x2,y2){await cdps.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:x1,y:y1}]});for(let i=1;i<=10;i++){await cdps.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x1+(x2-x1)*i/10,y:y1+(y2-y1)*i/10}]});await page.waitForTimeout(25)}await cdps.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await page.waitForTimeout(600)}
+const box=await track.boundingBox();const y=Math.min(700,Math.max(150,box.y+100));
+result.touch.before=await track.evaluate(e=>({left:e.scrollLeft,top:scrollY,touchAction:getComputedStyle(e).touchAction}));
+await swipe(330,y,60,y);result.touch.afterHorizontal=await track.evaluate(e=>({left:e.scrollLeft,top:scrollY}));
+await swipe(180,y,180,Math.max(80,y-180));result.touch.afterVertical=await track.evaluate(e=>({left:e.scrollLeft,top:scrollY}));
+await track.focus();await page.keyboard.press('End');await page.waitForTimeout(300);result.interactions.carouselEndDisabled=await page.locator('[data-carousel] [data-next]').isDisabled();
+await page.keyboard.press('Home');await page.waitForTimeout(300);result.interactions.carouselHomeDisabled=await page.locator('[data-carousel] [data-prev]').isDisabled();
+await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'output/site-validation/mobile-ux/technical-mobile-390.png',fullPage:true});
+const production=await readFile('dist-production/index.html','utf8');
+await page.route('http://127.0.0.1:4173/',r=>r.fulfill({status:200,contentType:'text/html',body:production}));
+await page.goto('http://127.0.0.1:4173/');await page.evaluate(()=>document.fonts.ready);
+result.production=await page.evaluate(()=>({width:innerWidth,height:document.documentElement.scrollHeight,scrollWidth:document.documentElement.scrollWidth,team:!!document.querySelector('#equipe'),testimonials:!!document.querySelector('#depoimentos'),sections:[...document.querySelectorAll('main section')].map(e=>e.id)}));
+await writeFile('output/site-validation/mobile-ux/technical-results.json',JSON.stringify(result,null,2));
+console.log(JSON.stringify(result,null,2));await browser.close();

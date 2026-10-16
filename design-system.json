@@ -1,0 +1,1343 @@
+{
+  "meta": {
+    "name": "Fast Limp — Design system do site",
+    "version": "1.0.0",
+    "date": "2026-10-15",
+    "locale": "pt-BR",
+    "status": "Especificação pronta para implementação; brandbook validado pelo cliente em 2026-10-15.",
+    "scope": "Documentação e handoff; não é uma implementação do site.",
+    "schema": "fast-limp-ui-spec/1.0 (formato próprio; não declarar conformidade estrita com DTCG)",
+    "tokenReferenceSyntax": "{primitive...}, {semantic...} ou {component...}; caminhos relativos a tokens; resolver recursivamente.",
+    "cssDimensionUnit": "CSS px unless fluid expression explicitly provided",
+    "evidence": "Visual proportions are interpretation targets, not exact measurements of original source CSS."
+  },
+  "sources": {
+    "brandbook": "output/pdf/fast-limp-brandbook-v1-validacao.pdf",
+    "brandGuidelines": "marca/brandbook-v1/diretrizes/manual-identidade.md",
+    "approvalRecord": "marca/brandbook-v1/diretrizes/aprovacao-brandbook.md",
+    "referenceFull": {
+      "path": "referencias/site-modelo-completo.png",
+      "width": 752,
+      "height": 5173,
+      "role": "Fullpage desktop composition and section order"
+    },
+    "referenceDetails": {
+      "path": "referencias/site-modelo-detalhes.png",
+      "width": 1024,
+      "height": 768,
+      "role": "Desktop detail montage; not mobile, not adjacent columns of one page"
+    },
+    "sourcePriority": [
+      "Latest explicit user instruction",
+      "Validated brandbook for identity and official artwork",
+      "DESIGN.md for composition/behavior and this JSON for numeric tokens; keep consistent",
+      "Fullpage screenshot for page order and silhouettes",
+      "Detail screenshot for local geometry",
+      "prompts-site-fast-limp.md for execution stages and content"
+    ],
+    "ignoreReferenceDetails": [
+      "Cleanx identity",
+      "purple/lavender palette",
+      "pool imagery and pool services",
+      "English copy",
+      "template contact information",
+      "unverified prices, staff, reviews, experience metrics",
+      "water photograph outside demo page"
+    ]
+  },
+  "brand": {
+    "name": "Fast Limp",
+    "descriptor": "Limpeza de vidros",
+    "audience": [
+      "Residências",
+      "Empresas"
+    ],
+    "logo": {
+      "selection": "Símbolo da opção03 (vidro+rodo) com lettering e descritor da opção01.",
+      "redraw": false,
+      "retype": false,
+      "headerDesktop": "marca/brandbook-v1/svg/fast-limp-compacta-principal.svg",
+      "headerMobile": "marca/brandbook-v1/svg/fast-limp-compacta-principal.svg",
+      "fullLight": "marca/brandbook-v1/svg/fast-limp-horizontal-principal.svg",
+      "fullDark": "marca/brandbook-v1/svg/fast-limp-horizontal-negativa.svg",
+      "compactDark": "marca/brandbook-v1/svg/fast-limp-compacta-negativa.svg",
+      "symbol": "marca/brandbook-v1/svg/fast-limp-simbolo-principal.svg",
+      "symbolMicro": "marca/brandbook-v1/svg/fast-limp-simbolo-micro-principal.svg",
+      "favicon": "marca/brandbook-v1/digital/favicon.ico",
+      "avatar": "marca/brandbook-v1/digital/avatar-principal-1024.png",
+      "clearspace": "visible symbol height / 4 on all outside edges; internal spacing is fixed artwork",
+      "minVisibleWidthPx": {
+        "horizontal": 320,
+        "compacta": 150,
+        "simbolo": 48,
+        "simbolo-micro": 24
+      },
+      "logoAspectRatio": {
+        "compacta": 4.369302,
+        "horizontal": 4.369302,
+        "symbol": 1.03876
+      }
+    },
+    "font": {
+      "family": "Manrope",
+      "weights": [
+        400,
+        600,
+        700
+      ],
+      "source": "marca/brandbook-v1/fontes/Manrope-Variable.ttf",
+      "staticFiles": [
+        "marca/brandbook-v1/fontes/Manrope-static.ttf",
+        "marca/brandbook-v1/fontes/Manrope-SemiBold-static.ttf",
+        "marca/brandbook-v1/fontes/Manrope-Bold-static.ttf"
+      ],
+      "license": "marca/brandbook-v1/fontes/OFL.txt",
+      "fallback": "Arial, sans-serif",
+      "fontDisplay": "swap"
+    },
+    "voice": [
+      "clara",
+      "cordial",
+      "precisa",
+      "acessível"
+    ],
+    "mandatoryConstraints": [
+      "No FL monogram",
+      "No alternative logo symbol",
+      "No font reconstruction of custom lettering",
+      "No new brand hues without approval",
+      "No fictional business claims"
+    ]
+  },
+  "tokens": {
+    "primitive": {
+      "color": {
+        "blue": {
+          "$type": "color",
+          "$value": "#1C94F0"
+        },
+        "navy": {
+          "$type": "color",
+          "$value": "#092131"
+        },
+        "white": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "mid": {
+          "$type": "color",
+          "$value": "#1274C2"
+        },
+        "light": {
+          "$type": "color",
+          "$value": "#5AB7F5"
+        },
+        "glass": {
+          "$type": "color",
+          "$value": "#2D546F"
+        },
+        "ice": {
+          "$type": "color",
+          "$value": "#EFF0F0"
+        },
+        "silver": {
+          "$type": "color",
+          "$value": "#D1D3D4"
+        },
+        "black": {
+          "$type": "color",
+          "$value": "#010202"
+        }
+      },
+      "space": {
+        "s0": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "s4": {
+          "$type": "dimension",
+          "$value": "4px"
+        },
+        "s8": {
+          "$type": "dimension",
+          "$value": "8px"
+        },
+        "s12": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "s16": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "s20": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "s24": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "s32": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "s40": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "s48": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "s56": {
+          "$type": "dimension",
+          "$value": "56px"
+        },
+        "s64": {
+          "$type": "dimension",
+          "$value": "64px"
+        },
+        "s72": {
+          "$type": "dimension",
+          "$value": "72px"
+        },
+        "s80": {
+          "$type": "dimension",
+          "$value": "80px"
+        },
+        "s96": {
+          "$type": "dimension",
+          "$value": "96px"
+        },
+        "s120": {
+          "$type": "dimension",
+          "$value": "120px"
+        },
+        "s160": {
+          "$type": "dimension",
+          "$value": "160px"
+        }
+      },
+      "radius": {
+        "none": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": "4px"
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "8px"
+        },
+        "frame": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999px"
+        }
+      },
+      "font": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "Manrope, Arial, sans-serif"
+        },
+        "regular": {
+          "$type": "fontWeight",
+          "$value": 400
+        },
+        "semibold": {
+          "$type": "fontWeight",
+          "$value": 600
+        },
+        "bold": {
+          "$type": "fontWeight",
+          "$value": 700
+        }
+      },
+      "duration": {
+        "instant": {
+          "$type": "duration",
+          "$value": "0ms"
+        },
+        "fast": {
+          "$type": "duration",
+          "$value": "150ms"
+        },
+        "normal": {
+          "$type": "duration",
+          "$value": "220ms"
+        },
+        "slow": {
+          "$type": "duration",
+          "$value": "320ms"
+        }
+      },
+      "easing": {
+        "standard": {
+          "$type": "cubicBezier",
+          "$value": "cubic-bezier(0.2, 0, 0, 1)"
+        }
+      },
+      "shadow": {
+        "none": {
+          "$type": "shadow",
+          "$value": "none"
+        },
+        "header": {
+          "$type": "shadow",
+          "$value": "0 8px 24px rgba(9, 33, 49, 0.08)"
+        },
+        "floating": {
+          "$type": "shadow",
+          "$value": "0 12px 32px rgba(9, 33, 49, 0.10)"
+        }
+      },
+      "opacity": {
+        "disabled": {
+          "$type": "number",
+          "$value": 0.55
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.white}"
+        },
+        "surfaceAlt": {
+          "$type": "color",
+          "$value": "{primitive.color.ice}"
+        },
+        "surfaceInverse": {
+          "$type": "color",
+          "$value": "{primitive.color.navy}"
+        },
+        "surfaceAccent": {
+          "$type": "color",
+          "$value": "{primitive.color.blue}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.navy}"
+        },
+        "textMuted": {
+          "$type": "color",
+          "$value": "{primitive.color.glass}"
+        },
+        "textInverse": {
+          "$type": "color",
+          "$value": "{primitive.color.white}"
+        },
+        "textInverseMuted": {
+          "$type": "color",
+          "$value": "{primitive.color.ice}"
+        },
+        "textOnAccent": {
+          "$type": "color",
+          "$value": "{primitive.color.navy}"
+        },
+        "link": {
+          "$type": "color",
+          "$value": "{primitive.color.mid}"
+        },
+        "linkInverse": {
+          "$type": "color",
+          "$value": "{primitive.color.light}"
+        },
+        "borderSubtle": {
+          "$type": "color",
+          "$value": "{primitive.color.silver}"
+        },
+        "borderControl": {
+          "$type": "color",
+          "$value": "{primitive.color.glass}"
+        },
+        "focusOnLight": {
+          "$type": "color",
+          "$value": "{primitive.color.navy}"
+        },
+        "focusOnDark": {
+          "$type": "color",
+          "$value": "{primitive.color.light}"
+        },
+        "errorText": {
+          "$type": "color",
+          "$value": "{primitive.color.navy}"
+        },
+        "errorBorder": {
+          "$type": "color",
+          "$value": "{primitive.color.navy}"
+        }
+      },
+      "layout": {
+        "container": {
+          "$type": "dimension",
+          "$value": "1200px"
+        },
+        "wideContainer": {
+          "$type": "dimension",
+          "$value": "1320px"
+        },
+        "gutterMobile": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "gutterTablet": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "gutterDesktop": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "gridGap": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "sectionDesktop": {
+          "$type": "dimension",
+          "$value": "96px"
+        },
+        "sectionTablet": {
+          "$type": "dimension",
+          "$value": "72px"
+        },
+        "sectionMobile": {
+          "$type": "dimension",
+          "$value": "56px"
+        }
+      },
+      "type": {
+        "display": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "clamp(40px, 4.6vw, 64px)",
+            "lineHeight": 1.04,
+            "fontWeight": 700,
+            "letterSpacing": "-0.04em"
+          }
+        },
+        "h2": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "clamp(28px, 3vw, 40px)",
+            "lineHeight": 1.12,
+            "fontWeight": 700,
+            "letterSpacing": "-0.03em"
+          }
+        },
+        "h3": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "clamp(20px, 1.8vw, 24px)",
+            "lineHeight": 1.25,
+            "fontWeight": 700,
+            "letterSpacing": "-0.02em"
+          }
+        },
+        "body": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "16px",
+            "lineHeight": 1.6,
+            "fontWeight": 400,
+            "letterSpacing": "0em"
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "14px",
+            "lineHeight": 1.5,
+            "fontWeight": 400,
+            "letterSpacing": "0em"
+          }
+        },
+        "eyebrow": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "13px",
+            "lineHeight": 1.4,
+            "fontWeight": 600,
+            "letterSpacing": "0.02em"
+          }
+        },
+        "button": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{primitive.font.family}",
+            "fontSize": "15px",
+            "lineHeight": 1.25,
+            "fontWeight": 700,
+            "letterSpacing": "0em"
+          }
+        }
+      },
+      "motion": {
+        "color": {
+          "$type": "duration",
+          "$value": "{primitive.duration.fast}"
+        },
+        "slide": {
+          "$type": "duration",
+          "$value": "{primitive.duration.normal}"
+        }
+      }
+    },
+    "component": {
+      "button": {
+        "height": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "smallHeight": {
+          "$type": "dimension",
+          "$value": "44px"
+        },
+        "iconSize": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "paddingX": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "8px"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{primitive.radius.small}"
+        },
+        "primary": {
+          "background": {
+            "$type": "color",
+            "$value": "{semantic.color.surfaceAccent}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{semantic.color.textOnAccent}"
+          },
+          "hoverBackground": {
+            "$type": "color",
+            "$value": "{primitive.color.navy}"
+          },
+          "hoverForeground": {
+            "$type": "color",
+            "$value": "{primitive.color.white}"
+          },
+          "activeBackground": {
+            "$type": "color",
+            "$value": "{primitive.color.glass}"
+          },
+          "activeForeground": {
+            "$type": "color",
+            "$value": "{primitive.color.white}"
+          }
+        },
+        "inverse": {
+          "background": {
+            "$type": "color",
+            "$value": "{primitive.color.white}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{primitive.color.navy}"
+          },
+          "hoverBackground": {
+            "$type": "color",
+            "$value": "{primitive.color.ice}"
+          },
+          "hoverForeground": {
+            "$type": "color",
+            "$value": "{primitive.color.navy}"
+          }
+        },
+        "dark": {
+          "background": {
+            "$type": "color",
+            "$value": "{primitive.color.navy}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{primitive.color.white}"
+          },
+          "hoverBackground": {
+            "$type": "color",
+            "$value": "{primitive.color.glass}"
+          }
+        },
+        "outline": {
+          "background": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{primitive.color.navy}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{primitive.color.glass}"
+          },
+          "hoverBackground": {
+            "$type": "color",
+            "$value": "{primitive.color.ice}"
+          }
+        }
+      },
+      "focus": {
+        "width": {
+          "$type": "dimension",
+          "$value": "2px"
+        },
+        "offset": {
+          "$type": "dimension",
+          "$value": "3px"
+        },
+        "colorLight": {
+          "$type": "color",
+          "$value": "{semantic.color.focusOnLight}"
+        },
+        "colorDark": {
+          "$type": "color",
+          "$value": "{semantic.color.focusOnDark}"
+        }
+      },
+      "header": {
+        "utilityHeight": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "desktopHeight": {
+          "$type": "dimension",
+          "$value": "84px"
+        },
+        "mobileHeight": {
+          "$type": "dimension",
+          "$value": "76px"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{semantic.color.surface}"
+        },
+        "logoDesktopWidth": {
+          "$type": "dimension",
+          "$value": "208px"
+        },
+        "logoMobileWidth": {
+          "$type": "dimension",
+          "$value": "156px"
+        },
+        "topInsetDesktop": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "shadow": {
+          "$type": "shadow",
+          "$value": "{primitive.shadow.header}"
+        }
+      },
+      "hero": {
+        "photoHeightDesktop": {
+          "$type": "dimension",
+          "$value": "680px"
+        },
+        "photoHeightTablet": {
+          "$type": "dimension",
+          "$value": "520px"
+        },
+        "photoHeightMobile": {
+          "$type": "dimension",
+          "$value": "360px"
+        },
+        "overlapDesktop": {
+          "$type": "dimension",
+          "$value": "220px"
+        },
+        "overlapTablet": {
+          "$type": "dimension",
+          "$value": "160px"
+        },
+        "overlapMobile": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "panelPaddingDesktop": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "panelPaddingMobile": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "panelTopPaddingDesktop": {
+          "$type": "dimension",
+          "$value": "72px"
+        },
+        "panelTopPaddingMobile": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "diagonalDesktop": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "diagonalMobile": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "panelBackground": {
+          "$type": "color",
+          "$value": "{semantic.color.surfaceAccent}"
+        },
+        "panelForeground": {
+          "$type": "color",
+          "$value": "{semantic.color.textOnAccent}"
+        }
+      },
+      "card": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{primitive.radius.none}"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{semantic.color.surface}"
+        },
+        "shadow": {
+          "$type": "shadow",
+          "$value": "{primitive.shadow.none}"
+        }
+      },
+      "carousel": {
+        "gap": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "controlSize": {
+          "$type": "dimension",
+          "$value": "44px"
+        },
+        "cardMobileBasis": {
+          "$type": "string",
+          "$value": "86%"
+        },
+        "cardDesktopBasis": {
+          "$type": "string",
+          "$value": "calc((100% - 48px) / 3.15)"
+        }
+      },
+      "input": {
+        "minHeight": {
+          "$type": "dimension",
+          "$value": "48px"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{primitive.radius.small}"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{semantic.color.surface}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{semantic.color.text}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{semantic.color.borderControl}"
+        },
+        "fontSize": {
+          "$type": "dimension",
+          "$value": "16px"
+        }
+      },
+      "accordion": {
+        "rowMinHeight": {
+          "$type": "dimension",
+          "$value": "56px"
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{semantic.color.surfaceAlt}"
+        },
+        "activeSurface": {
+          "$type": "color",
+          "$value": "{semantic.color.surfaceAccent}"
+        },
+        "activeText": {
+          "$type": "color",
+          "$value": "{semantic.color.textOnAccent}"
+        }
+      },
+      "testimonial": {
+        "contentMaxWidth": {
+          "$type": "dimension",
+          "$value": "720px"
+        },
+        "paddingDesktop": {
+          "$type": "dimension",
+          "$value": "80px"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{semantic.color.surfaceAlt}"
+        }
+      },
+      "footer": {
+        "background": {
+          "$type": "color",
+          "$value": "{semantic.color.surfaceInverse}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{semantic.color.textInverse}"
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "sectionPadding": {
+          "$type": "dimension",
+          "$value": "80px"
+        }
+      }
+    }
+  },
+  "layout": {
+    "coordinateSystem": "CSS pixels; reference image pixels are not equal to rendered CSSpx",
+    "containerRule": "width: min(1200px, calc(100% - 2 * responsive-gutter)); centered",
+    "wideContainerRule": "width: min(1320px, calc(100% - 2 * responsive-gutter)); centered",
+    "breakpoints": {
+      "small": 640,
+      "medium": 768,
+      "large": 1024,
+      "xlarge": 1280,
+      "wide": 1600
+    },
+    "gridColumns": {
+      "mobile": 4,
+      "tablet": 8,
+      "desktop": 12
+    },
+    "responsiveGutters": {
+      "below768": 20,
+      "from768": 32,
+      "from1024": 40
+    },
+    "sectionPaddingBlock": {
+      "mobile": 56,
+      "tablet": 72,
+      "desktop": 96
+    },
+    "textMeasure": "52-65ch for body; hero title~12-16ch; avoid hardcoded linebreaks on mobile",
+    "referenceApproximation": true,
+    "outerFrame": {
+      "demoBackdrop": false,
+      "waterTexture": false,
+      "headerTopRadiusDesktop": 20,
+      "mainPageMaxWidth": false
+    },
+    "overlapPolicy": "Only intentional composition: hero card, about collage, photo badge, team nameplates. Use separate decorative clipped background, preserve content/focus and document flow."
+  },
+  "sections": [
+    {
+      "id": "inicio",
+      "order": 1,
+      "referenceRole": "utility-header-hero",
+      "surface": "white",
+      "desktop": "Utility strip + floating white navigation over wide photo. Below, left blue panel overlaps photo bottom; two-column conversion panel to its right aligned to bottom.",
+      "mobile": "Compact header; image, overlapping text panel and conversion panel in document order. No absolute positioning of text.",
+      "required": true,
+      "header": {
+        "navigation": [
+          "Sobre",
+          "Serviços",
+          "Referências",
+          "Como funciona",
+          "Dúvidas"
+        ],
+        "sticky": false,
+        "menuBelow": 1024
+      },
+      "hero": {
+        "desktopColumns": "1.2fr 1fr",
+        "gap": 32,
+        "imageRatio": "viewport-wide",
+        "imageFocalPoint": "professional and glass at center/right; verify crop",
+        "photoBottomDiagonalPx": 56,
+        "panelTopDiagonal": true,
+        "quoteColumns": 2,
+        "quoteItems": [
+          "Residências",
+          "Empresas"
+        ],
+        "quotePricingAllowedOnlyIfConfirmed": true,
+        "socialProofRequiresVerifiedEvidence": true
+      },
+      "acceptance": [
+        "Manrope heading in real text",
+        "Navy copy on blue panel",
+        "Keep negative-space margin around official logo",
+        "No pool, Cleanx logo, demo frame or purple"
+      ]
+    },
+    {
+      "id": "sobre",
+      "order": 2,
+      "referenceRole": "about-overlapping-photo-collage",
+      "surface": "white",
+      "desktop": "Two columns 0.95fr 1.05fr; three offset photos left and eyebrow, title, paragraph, two benefit items, CTA right.",
+      "mobile": "Collage above text; reduce overlaps and preserve tap/focus visibility.",
+      "required": true,
+      "images": 3,
+      "collageRatio": "1 / 1",
+      "benefitItems": 2
+    },
+    {
+      "id": "servicos",
+      "order": 3,
+      "referenceRole": "services-carousel",
+      "surface": "ice",
+      "desktop": "Title left, manual circular controls right; 3 full photo cards and partial next card.",
+      "mobile": "Horizontal scroll-snap cards at86% width with44px controls; 1 visible plus peek.",
+      "required": true,
+      "itemsTarget": 4,
+      "cardImageRatio": "4 / 3",
+      "autoplay": false,
+      "contentGate": "confirmed service catalog"
+    },
+    {
+      "id": "referencias",
+      "order": 4,
+      "referenceRole": "gallery-bento",
+      "surface": "white",
+      "desktop": "Centered heading; 3 columns 1fr 0.72fr 1.28fr, two rows; tall left image spans2 rows; center2 small, right topwide + bottom2 tiles.",
+      "mobile": "Two columns with tall lead image then smaller tiles. One column below360px if needed.",
+      "required": true,
+      "imagesTarget": 6,
+      "desktopGridAreas": [
+        "lead midTop wide wide",
+        "lead midBottom smallA smallB"
+      ],
+      "desktopGridColumns": "1fr 0.72fr 0.64fr 0.64fr",
+      "imageGap": 16,
+      "desktopHeight": 520,
+      "lightbox": true,
+      "contentGate": "real authorized photos; illustrative images labeled as references"
+    },
+    {
+      "id": "como-funciona",
+      "order": 5,
+      "referenceRole": "process-timeline-and-media",
+      "surface": "navy",
+      "desktop": "Centered heading; horizontal line with4 markers and4 light cards; large landscape media below.",
+      "mobile": "4 ordered steps in vertical list; timeline connectors vertical; media16:9 below.",
+      "required": true,
+      "steps": 4,
+      "mediaRatio": "16 / 9",
+      "videoAutoplay": false,
+      "showPlayOnlyWhenVideoExists": true,
+      "staticPosterFallback": true,
+      "contentGate": "steps are proposed until operational confirmation"
+    },
+    {
+      "id": "diferenciais",
+      "order": 6,
+      "referenceRole": "why-choose-split-overlap-badge",
+      "surface": "white",
+      "desktop": "Two columns1fr1fr; title, body, four checked items, CTA left; largephoto right and blue badge over lower edge.",
+      "mobile": "Text then photo; badge in flow or small overlap within safe bounds.",
+      "required": true,
+      "itemsTarget": 4,
+      "badgeRequiresVerifiedMetric": true,
+      "badgeNeutralFallback": "Cuidado nos detalhes",
+      "imageRatio": "4 / 3"
+    },
+    {
+      "id": "depoimentos",
+      "order": 7,
+      "referenceRole": "testimonial-slider",
+      "surface": "ice",
+      "desktop": "Centered compact heading, quote, verified attribution; prev/next controls lateral and optional blue star row.",
+      "mobile": "Centered single card, prev/next below content, dynamic height.",
+      "requiredLayoutSlot": true,
+      "publicationRequires": [
+        "authorized testimonial",
+        "real attribution"
+      ],
+      "autoplay": false,
+      "emptyPreview": "Painel de revisão identificado: depoimentos ainda não fornecidos.",
+      "emptyProduction": "Do not publish fabricated quotes, ratings or people. Keep module in code and omit visible block until verified."
+    },
+    {
+      "id": "equipe",
+      "order": 8,
+      "referenceRole": "three-portrait-cards",
+      "surface": "white",
+      "desktop": "Leftheading and rightaction;3 portraitcards with overlapping nameplate; central highlight may useblue surface.",
+      "mobile": "Horizontal manualcarousel or one-column cards; no hover-only reveal.",
+      "requiredLayoutSlot": true,
+      "itemsTarget": 3,
+      "imageRatio": "3 / 4",
+      "publicationRequires": [
+        "real team photos and permission",
+        "verified names and roles"
+      ],
+      "emptyPreview": "3 clearly labeled pending portrait slots; no AI portraits presented as staff.",
+      "emptyProduction": "Hold section until real team supplied; record deviation from complete reference."
+    },
+    {
+      "id": "duvidas",
+      "order": 9,
+      "referenceRole": "two-column-faq",
+      "surface": "ice",
+      "desktop": "Leftheading, short intro and light supportcard; right accordion, first answer open in preview.",
+      "mobile": "Intro/supportcard first, accordionbelow; questions wrap freely.",
+      "required": true,
+      "itemsTarget": 6,
+      "initialOpenIndex": 0,
+      "multipleOpen": false,
+      "questions": [
+        "Como solicitar um orçamento?",
+        "A Fast Limp atende casas e empresas?",
+        "Quais vidros podem ser atendidos?",
+        "É possível programar a limpeza?",
+        "Como preparar o ambiente?",
+        "Qual é a região de atendimento?"
+      ],
+      "contentGate": "answers use confirmed information, no invented procedures or coverage"
+    },
+    {
+      "id": "conteudos",
+      "order": 10,
+      "referenceRole": "three-editorial-cards",
+      "surface": "white",
+      "desktop": "Centeredheading;3 equal photographic articlecards with metadata, title, excerpt, realdestination.",
+      "mobile": "One column, photography3:2, preserve articlereading hierarchy.",
+      "requiredLayoutSlot": true,
+      "itemsTarget": 3,
+      "imageRatio": "3 / 2",
+      "publicationRequires": [
+        "authored reviewed content",
+        "working real article destination"
+      ],
+      "emptyPreview": "3 labeled editorial preview slots; no fake dates, authors or published articles.",
+      "emptyProduction": "Do not publish cards with empty or fake destinations."
+    },
+    {
+      "id": "contato",
+      "order": 11,
+      "referenceRole": "dark-cta-and-single-footer",
+      "surface": "navy",
+      "desktop": "Same darksurface: topCTA row + divider +4column footer (brand, navigation, services, contact) + legalbase.",
+      "mobile": "CTA stacked; footer columns become2 then1; contact buttons fullwidth.",
+      "required": true,
+      "footerColumns": 4,
+      "newsletterDefault": false,
+      "newsletterFallback": "Contact/WhatsApp card preserves the reference fourth-column density without an unconnected email form.",
+      "singleFooter": true,
+      "contactRequiresConfirmedDestination": true,
+      "privacyRequiresRealPage": true,
+      "copyrightYear": "dynamic"
+    }
+  ],
+  "interaction": {
+    "buttonStates": {
+      "default": "semantic colors; 48px minheight",
+      "hover": "token state and subtle color transition; no scaling whole controls",
+      "active": "active token color, no layout shift",
+      "focus": "2px ring,3px offset; navy on light, lightblue on dark, use contrasting offset when needed",
+      "disabled": "native disabled / aria-disabled, .55opacity, no fake functioning link",
+      "loading": "visible text and aria-busy only for actual async work"
+    },
+    "menu": {
+      "mobile": "real button, aria-expanded, Escape closes, focus returns; don't claim sticky from reference",
+      "desktop": "plain anchor navigation to real section IDs; no empty dropdowns"
+    },
+    "carousel": {
+      "autoplay": false,
+      "interaction": [
+        "real prev/next buttons",
+        "scroll-snap pointer/touch",
+        "keyboard access",
+        "named regions",
+        "disabled end arrows when no loop"
+      ],
+      "reducedMotion": "instant position change",
+      "controls": "44px; at least8px gap; labels Anterior/Próximo"
+    },
+    "accordion": {
+      "pattern": "button in h3; aria-expanded, aria-controls; answer labelled by button; first open is proposed not observed runtime",
+      "motion": "220ms max; instant when reduced motion"
+    },
+    "lightbox": {
+      "escape": true,
+      "focusTrap": true,
+      "restoreFocus": true,
+      "closeButtonMinSize": 44,
+      "altAndCaption": true
+    },
+    "video": {
+      "autoplay": false,
+      "playButtonOnlyWithRealSource": true,
+      "captionsRequiredForSpeech": true,
+      "externalEmbedNeedsConsentStrategy": true
+    },
+    "forms": {
+      "enabledOnlyWithRealDestination": true,
+      "noFakeSuccess": true,
+      "visibleLabels": true,
+      "errorMeaning": "text + icon + navy border; no dependency on red or color alone",
+      "inputFontMinPx": 16
+    },
+    "motion": {
+      "respectPrefersReducedMotion": true,
+      "maxImageScaleHover": 1.03,
+      "parallax": false,
+      "scrollRevealOptional": false
+    }
+  },
+  "accessibility": {
+    "normalTextMinContrast": 4.5,
+    "largeTextMinContrast": 3,
+    "largeTextDefinition": "at least24CSSpx regular or18.667CSSpx bold",
+    "nonTextControlsMinContrast": 3,
+    "tapTargetDesignMinPx": 44,
+    "singleH1": true,
+    "headingOrder": true,
+    "skipLink": true,
+    "focusVisible": true,
+    "zoomReflowPercent": 200,
+    "imagesNeedAltOrEmptyDecorative": true,
+    "avoidTextAsImage": true,
+    "contrastPairs": [
+      {
+        "fg": "#092131",
+        "bg": "#1C94F0",
+        "ratio": 5.14,
+        "usage": "small text on brand-blue panels/buttons"
+      },
+      {
+        "fg": "#1274C2",
+        "bg": "#FFFFFF",
+        "ratio": 4.88,
+        "usage": "links on white"
+      },
+      {
+        "fg": "#FFFFFF",
+        "bg": "#092131",
+        "ratio": 16.49,
+        "usage": "dark sections"
+      },
+      {
+        "fg": "#FFFFFF",
+        "bg": "#1C94F0",
+        "ratio": 3.21,
+        "usage": "large text only; not default body/buttons"
+      }
+    ],
+    "sources": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/",
+      "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/"
+    ],
+    "disclaimer": "Design requirements, not a compliance certification of an unimplemented site."
+  },
+  "contentPolicy": {
+    "modeDefault": "local-review",
+    "modes": {
+      "local-review": "Preserve complete section slots using clearly identified draft content or neutral pending panels; no invented real identities/data.",
+      "production": "Publish only confirmed content; gated blocks remain in code, not visible until verified. Record each held section; no silent disappearance from comparison."
+    },
+    "confirmed": [
+      "Brand name",
+      "window+squeegee logo and colors",
+      "Manrope",
+      "equal residential/business audience",
+      "brandbook approved on2026-10-15"
+    ],
+    "pending": [
+      "city",
+      "region",
+      "telephone",
+      "WhatsApp destination",
+      "social profile URLs",
+      "specific service catalog",
+      "operational process",
+      "differentiators",
+      "authorized photographs",
+      "testimonials",
+      "staff names/roles/photos",
+      "video",
+      "articles",
+      "privacy page",
+      "domain"
+    ],
+    "unknownContactBehavior": "Use functional in-page contact/pending-info panel in local-review. Never construct fake WhatsApp URLs or href='#'. Enable actual WhatsApp only when provided.",
+    "proofRules": "No fictional prices, customer counts, star ratings, years, certifications, locations or fake portfolio.",
+    "cardsCountRule": "Counts are composition targets, not permission to invent content."
+  },
+  "assets": {
+    "referenceFiles": [
+      "referencias/site-modelo-completo.png",
+      "referencias/site-modelo-detalhes.png"
+    ],
+    "requiredPhotography": [
+      {
+        "id": "hero",
+        "ratio": "wide desktop + independent mobile crop",
+        "kind": "illustrative or authorized real"
+      },
+      {
+        "id": "about-01..03",
+        "ratio": "mixed portrait and square",
+        "kind": "context/tool/detail"
+      },
+      {
+        "id": "service-01..04",
+        "ratio": "4:3",
+        "kind": "per confirmed service"
+      },
+      {
+        "id": "gallery-01..06",
+        "ratio": "portrait/square/landscape as bento",
+        "kind": "authorized results or labelled illustrations"
+      },
+      {
+        "id": "process-poster",
+        "ratio": "16:9",
+        "kind": "real video poster or static labelled reference"
+      },
+      {
+        "id": "why-choose",
+        "ratio": "4:3",
+        "kind": "professional glass-cleaning scene"
+      },
+      {
+        "id": "team-01..03",
+        "ratio": "3:4",
+        "kind": "real staff only, pending if unavailable"
+      },
+      {
+        "id": "article-01..03",
+        "ratio": "3:2",
+        "kind": "licensed relevant editorial photography"
+      }
+    ],
+    "photographyRules": [
+      "Realistic glass transparency",
+      "Professional squeegee and controlled reflections",
+      "No pool imagery",
+      "No invented staff",
+      "No unconfirmed high-access/rope operation",
+      "Do not force logo redraw in generated photos"
+    ],
+    "delivery": "Copy official SVGs/fonts into public assets in future implementation; retain provenance and originals; optimize photos to WebP/AVIF with intrinsic dimensions and srcset."
+  },
+  "implementation": {
+    "stack": "Inspect workspace and retain stack; if none exists, default semantic HTML/CSS/modular JS for static institutional site. No forced framework, backend or CMS.",
+    "css": "Generate/translate custom JSON tokens into CSS variables, map breakpoints with literal min-width values, component styles reference tokens.",
+    "noBuildThisTask": true,
+    "deployment": "Never publish automatically.",
+    "phases": [
+      {
+        "id": "00",
+        "name": "Read sources, inspect workspace, inventory assets/content and confirm reference interpretation",
+        "deliverable": "Implementation inventory and pending-content log"
+      },
+      {
+        "id": "01",
+        "name": "Base, tokens/font/assets, topbar, header, hero and conversion panel",
+        "stopForVisualReview": true
+      },
+      {
+        "id": "02",
+        "name": "About collage and services carousel",
+        "stopForVisualReview": true
+      },
+      {
+        "id": "03",
+        "name": "Bento gallery and process/media",
+        "stopForVisualReview": true
+      },
+      {
+        "id": "04",
+        "name": "Differentiators, testimonials and team slots",
+        "stopForVisualReview": true
+      },
+      {
+        "id": "05",
+        "name": "FAQ, editorial content, final CTA and single footer",
+        "stopForVisualReview": true
+      },
+      {
+        "id": "06",
+        "name": "Integration, responsive/accessibility/performance/SEO checks",
+        "stopForVisualReview": true
+      }
+    ],
+    "handoffPrompt": "PROMPT-INICIAR-SITE.md"
+  },
+  "validation": {
+    "viewports": [
+      320,
+      360,
+      390,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "visualTargetDesktop": 1440,
+    "visualTargetMobile": 390,
+    "checks": [
+      "Reference order and layout silhouette preserved",
+      "Brand logo source and minimum sizes respected",
+      "Blue/navy text pairs valid",
+      "No horizontal overflow at any viewport",
+      "No clipped focus/content under diagonal",
+      "No dead controls",
+      "Reduced motion and keyboard behavior",
+      "No claims or contact URLs invented",
+      "Brandbook and MD/JSON stay aligned",
+      "Only current phase implemented",
+      "Check build only when stack has one",
+      "No automatic publishing"
+    ],
+    "jsonChecks": [
+      "All token aliases resolve without cycles",
+      "All referenced local assets exist unless explicitly future photography",
+      "All section order IDs unique",
+      "Markdown, JSON and prompt use same phase/section order",
+      "All brand hex values trace to brandbook"
+    ]
+  }
+}

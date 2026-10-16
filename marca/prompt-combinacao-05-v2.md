@@ -1,0 +1,11 @@
+# Fast Limp — combinação regenerada v2
+
+Ferramenta nativa de imagens. Referências: estudos originais 01 (texto) e 02 (símbolo). A combinação anterior com defeitos não foi usada como referência de geração.
+
+Saída: conceitos/05-combinacao-v2.png.
+
+Prompt exato:
+
+```text
+Completely regenerate a clean professional Fast Limp logo from scratch, using these TWO ORIGINAL references as design guides. Do not trace artifacts or combine distorted pixels. Reference 1: use the TYPOGRAPHIC DESIGN ONLY (right hand name and descriptor), NOT the FL monogram. Reference 2: use the GLASS PANE SYMBOL ONLY (left hand icon), NOT its wordmark. Deliver ONE horizontal logo on a perfectly clean pure white background, high-resolution landscape, centered with comfortable margins. Left: two offset geometric upright glass parallelogram panes with gently rounded corners, petrol navy rear pane and electric blue front pane, one precise white diagonal sweeping wedge from bottom left toward top right, matching reference 2. Right: bold clean navy wordmark reading EXACTLY "FAST LIMP", one line, matching the confident geometric lettering character and letter spacing of reference 1. Under the wordmark, smaller spaced upright navy sans serif letters reading EXACTLY "LIMPEZA DE VIDROS". Crucial quality correction: every glyph must be geometrically clean, with smooth contours, consistent strokes, crisp corners and normal fully formed counters. In particular the A must have a single clean triangular inner counter, a solid straight horizontal crossbar and two uninterrupted legs; NO notches, white chips, squiggles or torn edges. No accidental cuts in letters. No fused letters, broken strokes, malformed characters, tiny protrusions, duplicate contours or artifacts. Original reference 1 has slightly sloped terminals on FAST: retain that energetic typographic character only where intentional, while keeping perfect legibility. Both FAST and LIMP are entirely solid petrol navy #092131, not blue. Glass front solid electric blue #1C94F0. Flat vector-style artwork with perfectly uniform solid colors. No gradients, textures, noise, shadows, glow, 3D or mockups. Align text block optically to icon, with clear space between them. Symbol moderately taller than the two-line text block. Only these two text lines. This is a freshly redrawn, precise brand mark, not a damaged collage.
+```

@@ -1,0 +1,34 @@
+/* FL-15 — descoberta e ordem de leitura próprias para celular. */
+.service-picker,.service-position,.mobile-process-action{display:none}
+.faq-support p{color:var(--semantic-color-text-muted)}
+.footer-brand{grid-area:brand}.footer-contact{grid-area:contact}.footer-grid>nav{grid-area:explore}.footer-services{grid-area:services}
+.footer-grid{grid-template-areas:'brand' 'contact' 'explore' 'services'}
+@media(min-width:640px){.footer-grid{grid-template-areas:'brand explore' 'services contact'}}
+@media(min-width:1024px){.footer-grid{grid-template-areas:'brand explore services contact'}}
+@media(min-width:768px){
+  .faq-grid{grid-template-areas:'intro questions' 'support questions';grid-template-rows:auto 1fr;row-gap:32px}
+  .faq-intro{grid-area:intro}.faq-list{grid-area:questions}
+  .faq-grid>.faq-support{grid-area:support;align-self:start;margin-top:0}
+}
+@media(max-width:767px){
+  .has-js .services-review{display:none}
+  .has-js .service-picker{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px;margin-bottom:24px}
+  .service-picker button{min-width:0;min-height:48px;padding:10px 0;border:0;border-bottom:1px solid var(--semantic-color-border-control);background:transparent;color:var(--semantic-color-text);font:inherit;font-size:14px;line-height:1.5;text-align:left}
+  .service-picker button[aria-pressed=true]{border-bottom:2px solid var(--semantic-color-text);font-weight:700}
+  .has-js .service-position{display:block;margin:4px 0 0;font-size:14px;font-weight:600;line-height:1.5;color:var(--semantic-color-text)}
+  .mobile-process-action{display:block;margin-bottom:28px;text-align:center}
+  .mobile-process-action .button{width:auto;max-width:100%;padding-inline:20px}
+  .about-benefit p,.process-card p{font-size:14px;line-height:1.6}
+  .faq-grid>.faq-support{margin-top:0}
+  .team-grid{grid-template-columns:1fr;gap:16px}
+  .team-card{display:grid;grid-template-columns:104px minmax(0,1fr);align-items:stretch;width:100%;max-width:none;padding-bottom:0;margin:0;background:var(--semantic-color-surface-alt)}
+  .team-photo{width:100%;height:148px;aspect-ratio:auto;object-fit:cover;object-position:65% 40%}
+  .team-nameplate{display:flex;flex-direction:column;justify-content:center;margin:0;padding:20px 16px;text-align:left;background:transparent}
+  .team-nameplate h3{font-size:18px;line-height:1.3}
+  .team-nameplate p{font-size:14px;line-height:1.5}
+  .team-card-featured{background:var(--semantic-color-surface-accent)}
+  .footer-grid{grid-template-areas:'brand' 'contact' 'explore' 'services';grid-template-columns:1fr}
+}
+@media(max-width:359px){
+  .gallery-bento{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:'lead midTop' 'lead midBottom' 'wide wide' 'smallA smallB';grid-template-rows:repeat(2,128px) 160px 128px;gap:10px}
+}

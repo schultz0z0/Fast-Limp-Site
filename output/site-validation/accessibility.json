@@ -1,0 +1,27 @@
+{
+  "contrast": {
+    "checked": 191,
+    "failures": [],
+    "minimum": 4.88
+  },
+  "focusStyle": {
+    "style": "solid",
+    "width": "2px"
+  },
+  "contacts": 15,
+  "pendingControls": 5,
+  "lightbox": "6 images + keyboard + Tab/Shift+Tab containment + Escape + restoration after close event",
+  "dialogRaces": {
+    "focusAfterClose": true,
+    "reopenKeepsPhoto": true
+  },
+  "faq": "6 keyboard controls + exclusive expansion + collapse",
+  "menu": "hash + closing + destination focus",
+  "zoomReflow": true,
+  "textReflow": true,
+  "reducedMotion": {
+    "media": true,
+    "scroll": "auto",
+    "transition": "0s"
+  }
+}

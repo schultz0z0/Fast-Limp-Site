@@ -1,0 +1,1438 @@
+{
+  "images": [
+    {
+      "src": "hero-1920.webp",
+      "natural": [
+        1440,
+        810
+      ],
+      "attributes": [
+        1920,
+        1080
+      ],
+      "ratioError": 0
+    },
+    {
+      "src": "fast-limp-compacta-principal.svg",
+      "natural": [
+        300,
+        69
+      ],
+      "attributes": [
+        208,
+        48
+      ],
+      "ratioError": 0.01449275362318847
+    },
+    {
+      "src": "about-01-640.webp",
+      "natural": [
+        259,
+        346
+      ],
+      "attributes": [
+        1280,
+        1707
+      ],
+      "ratioError": 0.0012986309348449465
+    },
+    {
+      "src": "about-02-640.webp",
+      "natural": [
+        290,
+        217
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0.003072196620583778
+    },
+    {
+      "src": "about-03-640.webp",
+      "natural": [
+        330,
+        247
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0.0026990553306343035
+    },
+    {
+      "src": "service-01-640.webp",
+      "natural": [
+        365,
+        273
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0.00366300366300365
+    },
+    {
+      "src": "service-02-640.webp",
+      "natural": [
+        365,
+        273
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0.00366300366300365
+    },
+    {
+      "src": "service-03-640.webp",
+      "natural": [
+        365,
+        273
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0.00366300366300365
+    },
+    {
+      "src": "service-04-640.webp",
+      "natural": [
+        365,
+        273
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0.00366300366300365
+    },
+    {
+      "src": "gallery-01-640.webp",
+      "natural": [
+        390,
+        519
+      ],
+      "attributes": [
+        1280,
+        1707
+      ],
+      "ratioError": 0.001591542475559593
+    },
+    {
+      "src": "gallery-02-640.webp",
+      "natural": [
+        279,
+        279
+      ],
+      "attributes": [
+        1280,
+        1280
+      ],
+      "ratioError": 0
+    },
+    {
+      "src": "gallery-03-640.webp",
+      "natural": [
+        279,
+        279
+      ],
+      "attributes": [
+        1280,
+        1280
+      ],
+      "ratioError": 0
+    },
+    {
+      "src": "gallery-04-640.webp",
+      "natural": [
+        510,
+        286
+      ],
+      "attributes": [
+        1280,
+        720
+      ],
+      "ratioError": 0.00543900543900544
+    },
+    {
+      "src": "gallery-05-640.webp",
+      "natural": [
+        245,
+        245
+      ],
+      "attributes": [
+        1280,
+        1280
+      ],
+      "ratioError": 0
+    },
+    {
+      "src": "gallery-06-640.webp",
+      "natural": [
+        245,
+        245
+      ],
+      "attributes": [
+        1280,
+        1280
+      ],
+      "ratioError": 0
+    },
+    {
+      "src": "process-1280.webp",
+      "natural": [
+        1199,
+        674
+      ],
+      "attributes": [
+        1920,
+        1080
+      ],
+      "ratioError": 0.0011539729640621665
+    },
+    {
+      "src": "why-640.webp",
+      "natural": [
+        568,
+        426
+      ],
+      "attributes": [
+        1280,
+        960
+      ],
+      "ratioError": 0
+    },
+    {
+      "src": "article-01-640.webp",
+      "natural": [
+        384,
+        256
+      ],
+      "attributes": [
+        1280,
+        853
+      ],
+      "ratioError": 0.0005861664712778492
+    },
+    {
+      "src": "article-02-640.webp",
+      "natural": [
+        384,
+        256
+      ],
+      "attributes": [
+        1280,
+        853
+      ],
+      "ratioError": 0.0005861664712778492
+    },
+    {
+      "src": "article-03-640.webp",
+      "natural": [
+        384,
+        256
+      ],
+      "attributes": [
+        1280,
+        853
+      ],
+      "ratioError": 0.0005861664712778492
+    },
+    {
+      "src": "fast-limp-compacta-negativa.svg",
+      "natural": [
+        300,
+        69
+      ],
+      "attributes": [
+        208,
+        48
+      ],
+      "ratioError": 0.01449275362318847
+    }
+  ],
+  "checks": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 20,
+        "y": 48,
+        "w": 280,
+        "h": 79.703125,
+        "right": 300,
+        "bottom": 127.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 91.75,
+          "y": 8656.96875,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 228.234375,
+          "bottom": 8676.15625
+        },
+        {
+          "x": 32,
+          "y": 8716.15625,
+          "w": 256,
+          "h": 94,
+          "right": 288,
+          "bottom": 8810.15625
+        },
+        {
+          "x": 91.75,
+          "y": 9108.296875,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 228.234375,
+          "bottom": 9127.484375
+        },
+        {
+          "x": 32,
+          "y": 9167.484375,
+          "w": 256,
+          "h": 94,
+          "right": 288,
+          "bottom": 9261.484375
+        },
+        {
+          "x": 91.75,
+          "y": 9559.625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 228.234375,
+          "bottom": 9578.8125
+        },
+        {
+          "x": 32,
+          "y": 9618.8125,
+          "w": 256,
+          "h": 94,
+          "right": 288,
+          "bottom": 9712.8125
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "header": {
+        "x": 20,
+        "y": 48,
+        "w": 320,
+        "h": 79.703125,
+        "right": 340,
+        "bottom": 127.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 111.75,
+          "y": 7628.25,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 248.234375,
+          "bottom": 7647.4375
+        },
+        {
+          "x": 40,
+          "y": 7695.4375,
+          "w": 280,
+          "h": 96.5,
+          "right": 320,
+          "bottom": 7791.9375
+        },
+        {
+          "x": 111.75,
+          "y": 8135.40625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 248.234375,
+          "bottom": 8154.59375
+        },
+        {
+          "x": 40,
+          "y": 8202.59375,
+          "w": 280,
+          "h": 96.5,
+          "right": 320,
+          "bottom": 8299.09375
+        },
+        {
+          "x": 111.75,
+          "y": 8642.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 248.234375,
+          "bottom": 8661.75
+        },
+        {
+          "x": 40,
+          "y": 8709.75,
+          "w": 280,
+          "h": 96.5,
+          "right": 320,
+          "bottom": 8806.25
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 20,
+        "y": 48,
+        "w": 350,
+        "h": 79.703125,
+        "right": 370,
+        "bottom": 127.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-mobile-640.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 126.75,
+          "y": 7627.4375,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 263.234375,
+          "bottom": 7646.625
+        },
+        {
+          "x": 40,
+          "y": 7694.625,
+          "w": 310,
+          "h": 96.5,
+          "right": 350,
+          "bottom": 7791.125
+        },
+        {
+          "x": 126.75,
+          "y": 8174.59375,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 263.234375,
+          "bottom": 8193.78125
+        },
+        {
+          "x": 40,
+          "y": 8241.78125,
+          "w": 310,
+          "h": 96.5,
+          "right": 350,
+          "bottom": 8338.28125
+        },
+        {
+          "x": 126.75,
+          "y": 8721.75,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 263.234375,
+          "bottom": 8740.9375
+        },
+        {
+          "x": 40,
+          "y": 8788.9375,
+          "w": 310,
+          "h": 96.5,
+          "right": 350,
+          "bottom": 8885.4375
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "scrollWidth": 640,
+      "header": {
+        "x": 20,
+        "y": 48,
+        "w": 600,
+        "h": 79.703125,
+        "right": 620,
+        "bottom": 127.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-mobile-640.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 57.78125,
+          "y": 7533.53125,
+          "w": 113.75,
+          "h": 16,
+          "right": 171.53125,
+          "bottom": 7549.53125
+        },
+        {
+          "x": 28,
+          "y": 7593.53125,
+          "w": 173.328125,
+          "h": 118.5,
+          "right": 201.328125,
+          "bottom": 7712.03125
+        },
+        {
+          "x": 263.109375,
+          "y": 7533.53125,
+          "w": 113.75,
+          "h": 16,
+          "right": 376.859375,
+          "bottom": 7549.53125
+        },
+        {
+          "x": 233.328125,
+          "y": 7593.53125,
+          "w": 173.328125,
+          "h": 118.5,
+          "right": 406.65625,
+          "bottom": 7712.03125
+        },
+        {
+          "x": 468.4375,
+          "y": 7533.53125,
+          "w": 113.75,
+          "h": 16,
+          "right": 582.1875,
+          "bottom": 7549.53125
+        },
+        {
+          "x": 438.65625,
+          "y": 7593.53125,
+          "w": 173.328125,
+          "h": 118.5,
+          "right": 611.984375,
+          "bottom": 7712.03125
+        }
+      ]
+    },
+    {
+      "width": 767,
+      "scrollWidth": 767,
+      "header": {
+        "x": 20,
+        "y": 48,
+        "w": 727,
+        "h": 79.703125,
+        "right": 747,
+        "bottom": 127.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 78.953125,
+          "y": 7838.5625,
+          "w": 113.75,
+          "h": 16,
+          "right": 192.703125,
+          "bottom": 7854.5625
+        },
+        {
+          "x": 28,
+          "y": 7898.5625,
+          "w": 215.65625,
+          "h": 83.25,
+          "right": 243.65625,
+          "bottom": 7981.8125
+        },
+        {
+          "x": 326.609375,
+          "y": 7838.578125,
+          "w": 113.75,
+          "h": 16,
+          "right": 440.359375,
+          "bottom": 7854.578125
+        },
+        {
+          "x": 275.65625,
+          "y": 7898.578125,
+          "w": 215.671875,
+          "h": 83.25,
+          "right": 491.328125,
+          "bottom": 7981.828125
+        },
+        {
+          "x": 574.28125,
+          "y": 7838.578125,
+          "w": 113.75,
+          "h": 16,
+          "right": 688.03125,
+          "bottom": 7854.578125
+        },
+        {
+          "x": 523.328125,
+          "y": 7898.578125,
+          "w": 215.671875,
+          "h": 99.75,
+          "right": 739,
+          "bottom": 7998.328125
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 32,
+        "y": 56,
+        "w": 704,
+        "h": 79.703125,
+        "right": 736,
+        "bottom": 135.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 87.125,
+          "y": 6344.21875,
+          "w": 113.75,
+          "h": 16,
+          "right": 200.875,
+          "bottom": 6360.21875
+        },
+        {
+          "x": 40,
+          "y": 6396.21875,
+          "w": 208,
+          "h": 101,
+          "right": 248,
+          "bottom": 6497.21875
+        },
+        {
+          "x": 327.125,
+          "y": 6344.21875,
+          "w": 113.75,
+          "h": 16,
+          "right": 440.875,
+          "bottom": 6360.21875
+        },
+        {
+          "x": 280,
+          "y": 6396.21875,
+          "w": 208,
+          "h": 101,
+          "right": 488,
+          "bottom": 6497.21875
+        },
+        {
+          "x": 567.125,
+          "y": 6344.21875,
+          "w": 113.75,
+          "h": 16,
+          "right": 680.875,
+          "bottom": 6360.21875
+        },
+        {
+          "x": 520,
+          "y": 6396.21875,
+          "w": 208,
+          "h": 101,
+          "right": 728,
+          "bottom": 6497.21875
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "scrollWidth": 900,
+      "header": {
+        "x": 32,
+        "y": 56,
+        "w": 836,
+        "h": 79.703125,
+        "right": 868,
+        "bottom": 135.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 109.125,
+          "y": 6412.84375,
+          "w": 113.75,
+          "h": 16,
+          "right": 222.875,
+          "bottom": 6428.84375
+        },
+        {
+          "x": 40,
+          "y": 6464.84375,
+          "w": 252,
+          "h": 84.5,
+          "right": 292,
+          "bottom": 6549.34375
+        },
+        {
+          "x": 393.125,
+          "y": 6412.84375,
+          "w": 113.75,
+          "h": 16,
+          "right": 506.875,
+          "bottom": 6428.84375
+        },
+        {
+          "x": 324,
+          "y": 6464.84375,
+          "w": 252,
+          "h": 84.5,
+          "right": 576,
+          "bottom": 6549.34375
+        },
+        {
+          "x": 677.125,
+          "y": 6412.84375,
+          "w": 113.75,
+          "h": 16,
+          "right": 790.875,
+          "bottom": 6428.84375
+        },
+        {
+          "x": 608,
+          "y": 6464.84375,
+          "w": 252,
+          "h": 84.5,
+          "right": 860,
+          "bottom": 6549.34375
+        }
+      ]
+    },
+    {
+      "width": 1023,
+      "scrollWidth": 1023,
+      "header": {
+        "x": 32,
+        "y": 56,
+        "w": 959,
+        "h": 79.703125,
+        "right": 991,
+        "bottom": 135.703125
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "cta": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 129.625,
+          "y": 6519.515625,
+          "w": 113.75,
+          "h": 16,
+          "right": 243.375,
+          "bottom": 6535.515625
+        },
+        {
+          "x": 40,
+          "y": 6571.515625,
+          "w": 293,
+          "h": 84.5,
+          "right": 333,
+          "bottom": 6656.015625
+        },
+        {
+          "x": 454.625,
+          "y": 6519.515625,
+          "w": 113.75,
+          "h": 16,
+          "right": 568.375,
+          "bottom": 6535.515625
+        },
+        {
+          "x": 365,
+          "y": 6571.515625,
+          "w": 293,
+          "h": 84.5,
+          "right": 658,
+          "bottom": 6656.015625
+        },
+        {
+          "x": 779.625,
+          "y": 6519.515625,
+          "w": 113.75,
+          "h": 16,
+          "right": 893.375,
+          "bottom": 6535.515625
+        },
+        {
+          "x": 690,
+          "y": 6571.515625,
+          "w": 293,
+          "h": 84.5,
+          "right": 983,
+          "bottom": 6656.015625
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 40,
+        "y": 56,
+        "w": 944,
+        "h": 84,
+        "right": 984,
+        "bottom": 140
+      },
+      "nav": {
+        "x": 320.46875,
+        "y": 75.59375,
+        "w": 404.109375,
+        "h": 44.796875,
+        "right": 724.578125,
+        "bottom": 120.390625
+      },
+      "cta": {
+        "x": 769.046875,
+        "y": 71,
+        "w": 186.953125,
+        "h": 54,
+        "right": 956,
+        "bottom": 125
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 121.078125,
+          "y": 6320.6875,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 257.5625,
+          "bottom": 6339.875
+        },
+        {
+          "x": 64,
+          "y": 6391.875,
+          "w": 250.65625,
+          "h": 104.5,
+          "right": 314.65625,
+          "bottom": 6496.375
+        },
+        {
+          "x": 443.734375,
+          "y": 6320.703125,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 580.21875,
+          "bottom": 6339.890625
+        },
+        {
+          "x": 386.65625,
+          "y": 6391.890625,
+          "w": 250.671875,
+          "h": 104.5,
+          "right": 637.328125,
+          "bottom": 6496.390625
+        },
+        {
+          "x": 766.40625,
+          "y": 6320.6875,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 902.890625,
+          "bottom": 6339.875
+        },
+        {
+          "x": 709.328125,
+          "y": 6391.875,
+          "w": 250.65625,
+          "h": 104.5,
+          "right": 959.984375,
+          "bottom": 6496.375
+        }
+      ]
+    },
+    {
+      "width": 1100,
+      "scrollWidth": 1100,
+      "header": {
+        "x": 40,
+        "y": 56,
+        "w": 1020,
+        "h": 84,
+        "right": 1060,
+        "bottom": 140
+      },
+      "nav": {
+        "x": 358.46875,
+        "y": 75.59375,
+        "w": 404.109375,
+        "h": 44.796875,
+        "right": 762.578125,
+        "bottom": 120.390625
+      },
+      "cta": {
+        "x": 845.046875,
+        "y": 71,
+        "w": 186.953125,
+        "h": 54,
+        "right": 1032,
+        "bottom": 125
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 133.75,
+          "y": 6455.203125,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 270.234375,
+          "bottom": 6474.390625
+        },
+        {
+          "x": 64,
+          "y": 6526.390625,
+          "w": 276,
+          "h": 104.5,
+          "right": 340,
+          "bottom": 6630.890625
+        },
+        {
+          "x": 481.75,
+          "y": 6455.203125,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 618.234375,
+          "bottom": 6474.390625
+        },
+        {
+          "x": 412,
+          "y": 6526.390625,
+          "w": 276,
+          "h": 104.5,
+          "right": 688,
+          "bottom": 6630.890625
+        },
+        {
+          "x": 829.75,
+          "y": 6455.203125,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 966.234375,
+          "bottom": 6474.390625
+        },
+        {
+          "x": 760,
+          "y": 6526.390625,
+          "w": 276,
+          "h": 104.5,
+          "right": 1036,
+          "bottom": 6630.890625
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "header": {
+        "x": 40,
+        "y": 56,
+        "w": 1200,
+        "h": 84,
+        "right": 1240,
+        "bottom": 140
+      },
+      "nav": {
+        "x": 417.84375,
+        "y": 74.796875,
+        "w": 443.8125,
+        "h": 46.390625,
+        "right": 861.65625,
+        "bottom": 121.1875
+      },
+      "cta": {
+        "x": 1003.484375,
+        "y": 71,
+        "w": 208.515625,
+        "h": 54,
+        "right": 1212,
+        "bottom": 125
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 163.75,
+          "y": 6922.65625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 300.234375,
+          "bottom": 6941.84375
+        },
+        {
+          "x": 64,
+          "y": 6993.84375,
+          "w": 336,
+          "h": 104.5,
+          "right": 400,
+          "bottom": 7098.34375
+        },
+        {
+          "x": 571.75,
+          "y": 6922.65625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 708.234375,
+          "bottom": 6941.84375
+        },
+        {
+          "x": 472,
+          "y": 6993.84375,
+          "w": 336,
+          "h": 104.5,
+          "right": 808,
+          "bottom": 7098.34375
+        },
+        {
+          "x": 979.75,
+          "y": 6922.65625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 1116.234375,
+          "bottom": 6941.84375
+        },
+        {
+          "x": 880,
+          "y": 6993.84375,
+          "w": 336,
+          "h": 104.5,
+          "right": 1216,
+          "bottom": 7098.34375
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 60,
+        "y": 56,
+        "w": 1320,
+        "h": 84,
+        "right": 1380,
+        "bottom": 140
+      },
+      "nav": {
+        "x": 497.84375,
+        "y": 74.796875,
+        "w": 443.8125,
+        "h": 46.390625,
+        "right": 941.65625,
+        "bottom": 121.1875
+      },
+      "cta": {
+        "x": 1143.484375,
+        "y": 71,
+        "w": 208.515625,
+        "h": 54,
+        "right": 1352,
+        "bottom": 125
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 243.75,
+          "y": 7019.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 380.234375,
+          "bottom": 7038.75
+        },
+        {
+          "x": 144,
+          "y": 7090.75,
+          "w": 336,
+          "h": 104.5,
+          "right": 480,
+          "bottom": 7195.25
+        },
+        {
+          "x": 651.75,
+          "y": 7019.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 788.234375,
+          "bottom": 7038.75
+        },
+        {
+          "x": 552,
+          "y": 7090.75,
+          "w": 336,
+          "h": 104.5,
+          "right": 888,
+          "bottom": 7195.25
+        },
+        {
+          "x": 1059.75,
+          "y": 7019.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 1196.234375,
+          "bottom": 7038.75
+        },
+        {
+          "x": 960,
+          "y": 7090.75,
+          "w": 336,
+          "h": 104.5,
+          "right": 1296,
+          "bottom": 7195.25
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "header": {
+        "x": 300,
+        "y": 56,
+        "w": 1320,
+        "h": 84,
+        "right": 1620,
+        "bottom": 140
+      },
+      "nav": {
+        "x": 737.84375,
+        "y": 74.796875,
+        "w": 443.8125,
+        "h": 46.390625,
+        "right": 1181.65625,
+        "bottom": 121.1875
+      },
+      "cta": {
+        "x": 1383.484375,
+        "y": 71,
+        "w": 208.515625,
+        "h": 54,
+        "right": 1592,
+        "bottom": 125
+      },
+      "heroSubject": "http://127.0.0.1:4173/assets/photos/hero-1920.webp",
+      "active": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div clas",
+      "skip": {
+        "x": 12,
+        "y": -67.3499984741211,
+        "w": 200.796875,
+        "h": 49.59375,
+        "right": 212.796875,
+        "bottom": -17.756248474121094
+      },
+      "teamLabels": [
+        {
+          "x": 483.75,
+          "y": 7019.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 620.234375,
+          "bottom": 7038.75
+        },
+        {
+          "x": 384,
+          "y": 7090.75,
+          "w": 336,
+          "h": 104.5,
+          "right": 720,
+          "bottom": 7195.25
+        },
+        {
+          "x": 891.75,
+          "y": 7019.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 1028.234375,
+          "bottom": 7038.75
+        },
+        {
+          "x": 792,
+          "y": 7090.75,
+          "w": 336,
+          "h": 104.5,
+          "right": 1128,
+          "bottom": 7195.25
+        },
+        {
+          "x": 1299.75,
+          "y": 7019.5625,
+          "w": 136.484375,
+          "h": 19.1875,
+          "right": 1436.234375,
+          "bottom": 7038.75
+        },
+        {
+          "x": 1200,
+          "y": 7090.75,
+          "w": 336,
+          "h": 104.5,
+          "right": 1536,
+          "bottom": 7195.25
+        }
+      ]
+    }
+  ],
+  "menuReturn": true,
+  "contactOpen": true,
+  "modalFocus": [
+    {
+      "tag": "BUTTON",
+      "inModal": true
+    },
+    {
+      "tag": "BODY",
+      "inModal": false
+    },
+    {
+      "tag": "BUTTON",
+      "inModal": true
+    },
+    {
+      "tag": "BUTTON",
+      "inModal": true
+    },
+    {
+      "tag": "BODY",
+      "inModal": false
+    }
+  ],
+  "returnContact": true,
+  "galleryTab": "<body>\n  <a class=\"skip-link\" href=\"#conteudo\">Pular para o conteúdo</a>\n  <section id=\"inicio\" aria-label=\"Fast Limp, limpeza de vidros\">\n  <div class=\"utility-bar\"><div class=\"container utility-inner\"><span>Limpeza de vidros · Residências e empresas</span><a href=\"#contato\">Prévia local · informações de contato</a></div></div>\n  <div class=\"hero-scene\">\n    <div class=\"hero-photo\"><picture><source media=\"(max-width: 767px)\" srcset=\"assets/photos/hero-mobile-640.webp 640w, assets/photos/hero-mobile-1280.webp 1280w\" sizes=\"100vw\"><img src=\"assets/photos/hero-1920.webp\" srcset=\"assets/photos/hero-640.webp 640w, assets/photos/hero-1280.webp 1280w, assets/photos/hero-1920.webp 1920w\" sizes=\"100vw\" width=\"1920\" height=\"1080\" alt=\"Cena ilustrativa de limpeza de vidro com rodo profissional\" fetchpriority=\"high\" loading=\"eager\"></picture></div>\n    <header class=\"site-header wide-container\">\n      <a class=\"brand-link\" href=\"#inicio\" aria-label=\"Fast Limp, início\"><img class=\"brand-logo\" src=\"assets/brand/fast-limp-compacta-principal.svg\" width=\"208\" height=\"48\" alt=\"Fast Limp\" loading=\"eager\"></a>\n      <nav class=\"desktop-nav\" aria-label=\"Navegação principal\"><a href=\"#sobre\">Sobre</a><a href=\"#servicos\">Serviços</a><a href=\"#referencias\">Referências</a><a href=\"#como-funciona\">Como funciona</a><a href=\"#duvidas\">Dúvidas</a></nav>\n      <button class=\"button header-action\" data-contact=\"\">Solicitar orçamento <span aria-hidden=\"true\">↗</span></button>\n      <button class=\"menu-toggle\" id=\"menu-toggle\" aria-expanded=\"false\" aria-controls=\"mobile-menu\" aria-label=\"Abrir menu\"><span></span><span></span></button>\n      <nav class=\"mobile-nav\" id=\"mobile-menu\" aria-label=\"Navegação mobile\" hidden=\"\"><a href=\"#sobre\">Sobre</a><a href=\"#servicos\">Serviços</a><a href=\"#referencias\">Referências</a><a href=\"#como-funciona\">Como funciona</a><a href=\"#duvidas\">Dúvidas</a><button class=\"button\" data-contact=\"\">Solicitar orçamento ↗</button></nav>\n    </header>\n  </div>\n  <div class=\"container hero-composition\">\n    <div class=\"hero-panel\"><span class=\"eyebrow\">Limpeza de vidros</span><h1>Vidros limpos. Uma nova impressão do seu espaço.</h1><p>Limpeza de vidros para residências e empresas, com atenção aos detalhes e à apresentação de cada ambiente.</p><button class=\"button button-light\" data-contact=\"\">Solicitar um orçamento <span aria-hidden=\"true\">↗</span></button><div class=\"hero-support\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><path d=\"M4 28V12l10-8 10 8v16M11 28V18h7v10M24 12h5v16H4\"></path></svg><span>Para sua casa. Para sua empresa.</span></div></div>\n    <aside class=\"conversion-panel\" aria-label=\"Atendimento residencial e empresarial\"><div class=\"conversion-heading\">Cuidado para o seu espaço</div><div class=\"conversion-options\"><div class=\"conversion-option\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><path d=\"M5 19 20 6l15 13M10 16v18h20V16M17 34V23h6v11\"></path></svg><h2>Residências</h2><p>Mais clareza nos ambientes que fazem parte da sua vida.</p><button data-contact=\"\" data-context=\"Residências\">Para minha casa ↗</button></div><div class=\"conversion-option\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><path d=\"M8 34V6h24v28M4 34h32M15 13h3m4 0h3M15 20h3m4 0h3M16 34v-7h8v7\"></path></svg><h2>Empresas</h2><p>Uma boa apresentação começa nos detalhes do seu espaço.</p><button data-contact=\"\" data-context=\"Empresas\">Para minha empresa ↗</button></div></div></aside>\n  </div>\n  <p class=\"container hero-caption\">Fotografia ilustrativa. Não representa equipe ou serviço realizado pela Fast Limp.</p>\n</section>\n\n  <main id=\"conteudo\" tabindex=\"-1\">\n    <section class=\"section about-section\" id=\"sobre\" aria-labelledby=\"about-title\">\n  <div class=\"container about-layout\">\n    <figure class=\"about-collage\">\n      <div class=\"about-collage-images\">\n        <img class=\"about-photo about-photo-one\" src=\"assets/photos/about-01-640.webp\" srcset=\"assets/photos/about-01-640.webp 640w, assets/photos/about-01-1280.webp 1280w\" sizes=\"(min-width: 1024px) 260px, (min-width: 768px) 44vw, 45vw\" alt=\"Cena ilustrativa de limpeza de uma janela em ambiente interno\" width=\"1280\" height=\"1707\" loading=\"eager\" decoding=\"async\">\n        <img class=\"about-photo about-photo-two\" src=\"assets/photos/about-02-640.webp\" srcset=\"assets/photos/about-02-640.webp 640w, assets/photos/about-02-1280.webp 1280w\" sizes=\"(min-width: 1024px) 290px, (min-width: 768px) 48vw, 48vw\" alt=\"Detalhe ilustrativo de um pano em contato com o vidro\" width=\"1280\" height=\"960\" loading=\"eager\" decoding=\"async\">\n        <img class=\"about-photo about-photo-three\" src=\"assets/photos/about-03-640.webp\" srcset=\"assets/photos/about-03-640.webp 640w, assets/photos/about-03-1280.webp 1280w\" sizes=\"(min-width: 1024px) 330px, (min-width: 768px) 56vw, 57vw\" alt=\"Detalhe ilustrativo de ferramenta para limpeza de vidros\" width=\"1280\" height=\"960\" loading=\"eager\" decoding=\"async\">\n      </div>\n      <figcaption class=\"photo-note\">Fotografias ilustrativas. Não representam a equipe da Fast Limp.</figcaption>\n    </figure>\n    <div class=\"about-copy\">\n      <div class=\"section-heading\">\n        <span class=\"eyebrow\">Sobre a Fast Limp</span>\n        <h2 id=\"about-title\">Mais luz para viver. Mais clareza para trabalhar.</h2>\n        <p>Limpeza de vidros para residências e empresas. A Fast Limp tem uma proposta clara: cuidado com os detalhes e com a apresentação de cada ambiente.</p>\n      </div>\n      <div class=\"about-benefits\">\n        <div class=\"about-benefit\">\n          <svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><path d=\"m4 15 12-10 12 10M8 13v14h16V13M13 27v-9h6v9\"></path></svg>\n          <div><h3>Para a sua casa</h3><p>Vidros que fazem parte dos seus espaços de viver.</p></div>\n        </div>\n        <div class=\"about-benefit\">\n          <svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><path d=\"M6 28V5h20v23M3 28h26M12 10h2m4 0h2m-8 6h2m4 0h2m-7 12v-6h6v6\"></path></svg>\n          <div><h3>Para a sua empresa</h3><p>Transparência na apresentação do seu ambiente profissional.</p></div>\n        </div>\n      </div>\n      <button class=\"button\" type=\"button\" data-contact=\"\" data-context=\"Sobre a Fast Limp\">Conte o que você precisa <span aria-hidden=\"true\">↗</span></button>\n    </div>\n  </div>\n</section>\n\n<section class=\"section surface-alt services-section\" id=\"servicos\" aria-labelledby=\"services-title\">\n  <div class=\"container\" data-carousel=\"\">\n    <div class=\"section-top\">\n      <div><span class=\"eyebrow\">Limpeza de vidros</span><h2 id=\"services-title\">Um olhar para cada tipo de espaço.</h2></div>\n      <div class=\"carousel-controls\" aria-label=\"Controles dos serviços propostos\">\n        <button class=\"round-button\" type=\"button\" data-prev=\"\" aria-label=\"Serviço anterior\" aria-controls=\"services-track\" disabled=\"\"><span aria-hidden=\"true\">←</span></button>\n        <button class=\"round-button\" type=\"button\" data-next=\"\" aria-label=\"Próximo serviço\" aria-controls=\"services-track\"><span aria-hidden=\"true\">→</span></button>\n      </div>\n    </div>\n    <p class=\"services-review small\" id=\"services-review\">Catálogo em revisão: os exemplos abaixo são propostas a confirmar com a Fast Limp.</p>\n    <div class=\"services-track\" id=\"services-track\" data-track=\"\" tabindex=\"0\" role=\"region\" aria-label=\"Catálogo proposto de serviços\" aria-describedby=\"services-review\">\n      <article class=\"service-card\">\n        <img src=\"assets/photos/service-01-640.webp\" srcset=\"assets/photos/service-01-640.webp 640w, assets/photos/service-01-1280.webp 1280w\" sizes=\"(min-width: 1280px) 365px, (min-width: 1024px) 30vw, (min-width: 768px) 43vw, 78vw\" alt=\"Ambiente residencial com amplas superfícies de vidro, imagem ilustrativa\" width=\"1280\" height=\"960\" loading=\"eager\" decoding=\"async\">\n        <div class=\"service-copy\"><span class=\"pending-label\">Proposta · a confirmar</span><h3>Vidros residenciais</h3><p>Janelas e superfícies de vidro em ambientes de casa.</p><button class=\"text-link\" type=\"button\" data-contact=\"\" data-context=\"Proposta de vidros residenciais\">Consultar disponibilidade <span aria-hidden=\"true\">↗</span></button></div>\n      </article>\n      <article class=\"service-card\">\n        <img src=\"assets/photos/service-02-640.webp\" srcset=\"assets/photos/service-02-640.webp 640w, assets/photos/service-02-1280.webp 1280w\" sizes=\"(min-width: 1280px) 365px, (min-width: 1024px) 30vw, (min-width: 768px) 43vw, 78vw\" alt=\"Escritório iluminado por janelas, imagem ilustrativa\" width=\"1280\" height=\"960\" loading=\"eager\" decoding=\"async\">\n        <div class=\"service-copy\"><span class=\"pending-label\">Proposta · a confirmar</span><h3>Ambientes corporativos</h3><p>Vidros que integram os espaços de trabalho e convivência.</p><button class=\"text-link\" type=\"button\" data-contact=\"\" data-context=\"Proposta de ambientes corporativos\">Consultar disponibilidade <span aria-hidden=\"true\">↗</span></button></div>\n      </article>\n      <article class=\"service-card\">\n        <img src=\"assets/photos/service-03-640.webp\" srcset=\"assets/photos/service-03-640.webp 640w, assets/photos/service-03-1280.webp 1280w\" sizes=\"(min-width: 1280px) 365px, (min-width: 1024px) 30vw, (min-width: 768px) 43vw, 78vw\" alt=\"Cena ilustrativa de limpeza de uma superfície envidraçada no nível do solo\" width=\"1280\" height=\"960\" loading=\"eager\" decoding=\"async\">\n        <div class=\"service-copy\"><span class=\"pending-label\">Proposta · a confirmar</span><h3>Vitrines e lojas</h3><p>Superfícies de vidro na apresentação de espaços comerciais.</p><button class=\"text-link\" type=\"button\" data-contact=\"\" data-context=\"Proposta de vitrines e lojas\">Consultar disponibilidade <span aria-hidden=\"true\">↗</span></button></div>\n      </article>\n      <article class=\"service-card\">\n        <img src=\"assets/photos/service-04-640.webp\" srcset=\"assets/photos/service-04-640.webp 640w, assets/photos/service-04-1280.webp 1280w\" sizes=\"(min-width: 1280px) 365px, (min-width: 1024px) 30vw, (min-width: 768px) 43vw, 78vw\" alt=\"Detalhe ilustrativo da limpeza junto à moldura de uma janela\" width=\"1280\" height=\"960\" loading=\"eager\" decoding=\"async\">\n        <div class=\"service-copy\"><span class=\"pending-label\">Proposta · a confirmar</span><h3>Janelas e esquadrias</h3><p>Detalhes do vidro e de seu entorno para avaliar no orçamento.</p><button class=\"text-link\" type=\"button\" data-contact=\"\" data-context=\"Proposta de janelas e esquadrias\">Consultar disponibilidade <span aria-hidden=\"true\">↗</span></button></div>\n      </article>\n    </div>\n    <div class=\"services-bottom\"><p class=\"photo-note\">Fotografias ilustrativas. A oferta e o escopo dependem de confirmação.</p><a class=\"text-link\" href=\"#contato\">Fale sobre o seu espaço <span aria-hidden=\"true\">↗</span></a></div>\n  </div>\n</section>\n\n<section class=\"section gallery-section\" id=\"referencias\" aria-labelledby=\"gallery-title\">\n  <div class=\"container\">\n    <div class=\"section-heading centered gallery-heading\"><span class=\"eyebrow\">Inspiração em cada detalhe</span><h2 id=\"gallery-title\">Referências de serviço</h2><p>Vidro, luz e diferentes perspectivas. Explore as imagens.</p></div>\n    <div class=\"gallery-bento\" aria-label=\"Galeria de seis fotografias ilustrativas\">\n      <button class=\"gallery-tile gallery-lead\" type=\"button\" data-gallery=\"\" data-full=\"assets/photos/gallery-01-1920.webp\" data-caption=\"Superfície envidraçada vista do exterior. Fotografia ilustrativa; não representa um trabalho executado pela Fast Limp.\" aria-label=\"Ampliar referência ilustrativa: superfície envidraçada vista do exterior\"><img src=\"assets/photos/gallery-01-640.webp\" srcset=\"assets/photos/gallery-01-640.webp 640w, assets/photos/gallery-01-1280.webp 1280w\" sizes=\"(min-width: 1024px) 390px, 48vw\" alt=\"Cena ilustrativa de limpeza de uma superfície envidraçada\" width=\"1280\" height=\"1707\" loading=\"eager\" decoding=\"async\"><span class=\"gallery-expand\" aria-hidden=\"true\">↗</span></button>\n      <button class=\"gallery-tile gallery-mid-top\" type=\"button\" data-gallery=\"\" data-full=\"assets/photos/gallery-02-1920.webp\" data-caption=\"Detalhe de limpeza no vidro. Fotografia ilustrativa; não representa um trabalho executado pela Fast Limp.\" aria-label=\"Ampliar referência ilustrativa: detalhe de limpeza no vidro\"><img src=\"assets/photos/gallery-02-640.webp\" srcset=\"assets/photos/gallery-02-640.webp 640w, assets/photos/gallery-02-1280.webp 1280w\" sizes=\"(min-width: 1024px) 280px, 44vw\" alt=\"Pano em contato com uma superfície de vidro, cena ilustrativa\" width=\"1280\" height=\"1280\" loading=\"eager\" decoding=\"async\"><span class=\"gallery-expand\" aria-hidden=\"true\">↗</span></button>\n      <button class=\"gallery-tile gallery-mid-bottom\" type=\"button\" data-gallery=\"\" data-full=\"assets/photos/gallery-03-1920.webp\" data-caption=\"Luz natural em ambiente residencial. Fotografia ilustrativa; não representa um cliente ou trabalho da Fast Limp.\" aria-label=\"Ampliar referência ilustrativa: luz natural em ambiente residencial\"><img src=\"assets/photos/gallery-03-640.webp\" srcset=\"assets/photos/gallery-03-640.webp 640w, assets/photos/gallery-03-1280.webp 1280w\" sizes=\"(min-width: 1024px) 280px, 44vw\" alt=\"Sala com luz natural e superfícies envidraçadas, imagem ilustrativa\" width=\"1280\" height=\"1280\" loading=\"eager\" decoding=\"async\"><span class=\"gallery-expand\" aria-hidden=\"true\">↗</span></button>\n      <button class=\"gallery-tile gallery-wide\" type=\"button\" data-gallery=\"\" data-full=\"assets/photos/gallery-04-1920.webp\" data-caption=\"Cena de limpeza de uma janela ampla. Fotografia ilustrativa; a pessoa retratada não integra a equipe Fast Limp.\" aria-label=\"Ampliar referência ilustrativa: janela ampla\"><img src=\"assets/photos/gallery-04-640.webp\" srcset=\"assets/photos/gallery-04-640.webp 640w, assets/photos/gallery-04-1280.webp 1280w\" sizes=\"(min-width: 1024px) 510px, 44vw\" alt=\"Cena ilustrativa de limpeza de uma janela ampla por dentro\" width=\"1280\" height=\"720\" loading=\"eager\" decoding=\"async\"><span class=\"gallery-expand\" aria-hidden=\"true\">↗</span></button>\n      <button class=\"gallery-tile gallery-small-a\" type=\"button\" data-gallery=\"\" data-full=\"assets/photos/gallery-05-1920.webp\" data-caption=\"Cuidado na superfície do vidro. Fotografia ilustrativa; a pessoa retratada não integra a equipe Fast Limp.\" aria-label=\"Ampliar referência ilustrativa: cuidado na superfície do vidro\"><img src=\"assets/photos/gallery-05-640.webp\" srcset=\"assets/photos/gallery-05-640.webp 640w, assets/photos/gallery-05-1280.webp 1280w\" sizes=\"(min-width: 1024px) 245px, 44vw\" alt=\"Detalhe ilustrativo de uma pessoa limpando o vidro de uma janela\" width=\"1280\" height=\"1280\" loading=\"eager\" decoding=\"async\"><span class=\"gallery-expand\" aria-hidden=\"true\">↗</span></button>\n      <button class=\"gallery-tile gallery-small-b\" type=\"button\" data-gallery=\"\" data-full=\"assets/photos/gallery-06-1920.webp\" data-caption=\"Detalhes de uma janela e sua moldura. Fotografia ilustrativa; não representa um trabalho executado pela Fast Limp.\" aria-label=\"Ampliar referência ilustrativa: janela e moldura\"><img src=\"assets/photos/gallery-06-640.webp\" srcset=\"assets/photos/gallery-06-640.webp 640w, assets/photos/gallery-06-1280.webp 1280w\" sizes=\"(min-width: 1024px) 245px, 44vw\" alt=\"Pano junto à moldura de uma janela, fotografia ilustrativa\" width=\"1280\" height=\"1280\" loading=\"eager\" decoding=\"async\"><span class=\"gallery-expand\" aria-hidden=\"true\">↗</span></button>\n    </div>\n    <p class=\"photo-note gallery-note\">Imagens ilustrativas, sem vínculo com clientes, equipe ou serviços executados pela Fast Limp.</p>\n  </div>\n</section>\n\n<section class=\"section surface-dark process-section\" id=\"como-funciona\" aria-labelledby=\"process-title\">\n  <div class=\"container\">\n    <div class=\"section-heading centered process-heading\"><span class=\"eyebrow\">Como funciona</span><h2 id=\"process-title\">Da primeira conversa ao cuidado com o vidro.</h2><p>Fluxo proposto para revisão. As etapas e condições de atendimento ainda precisam de confirmação.</p></div>\n    <ol class=\"process-steps\" aria-label=\"Quatro etapas propostas para o atendimento\">\n      <li class=\"process-step\"><span class=\"process-number\" aria-hidden=\"true\">01</span><div class=\"process-card\"><h3>Conte o que precisa</h3><p>Apresente seu espaço e o que gostaria de avaliar.</p></div></li>\n      <li class=\"process-step\"><span class=\"process-number\" aria-hidden=\"true\">02</span><div class=\"process-card\"><h3>Alinhe os detalhes</h3><p>Escopo, acesso e condições ficam sujeitos à avaliação.</p></div></li>\n      <li class=\"process-step\"><span class=\"process-number\" aria-hidden=\"true\">03</span><div class=\"process-card\"><h3>Combine a limpeza</h3><p>Disponibilidade e agendamento precisam ser confirmados.</p></div></li>\n      <li class=\"process-step\"><span class=\"process-number\" aria-hidden=\"true\">04</span><div class=\"process-card\"><h3>Revise o combinado</h3><p>Proposta de conferência do escopo ao final do atendimento.</p></div></li>\n    </ol>\n    <figure class=\"process-media\"><img src=\"assets/photos/process-1280.webp\" srcset=\"assets/photos/process-640.webp 640w, assets/photos/process-1280.webp 1280w, assets/photos/process-1920.webp 1920w\" sizes=\"(min-width: 1280px) 1200px, calc(100vw - 40px)\" alt=\"Detalhe ilustrativo de uma ferramenta para limpeza de vidro\" width=\"1920\" height=\"1080\" loading=\"eager\" decoding=\"async\"><figcaption>Fotografia ilustrativa. Este quadro é estático; vídeo institucional ainda não fornecido.</figcaption></figure>\n  </div>\n</section>\n\n    <section id=\"diferenciais\" class=\"section\" aria-labelledby=\"why-title\">\n  <div class=\"container why-grid\">\n    <div class=\"why-copy section-heading\">\n      <span class=\"eyebrow\">Por que Fast Limp</span>\n      <h2 id=\"why-title\">O cuidado que valoriza cada detalhe.</h2>\n      <p>Vidros fazem parte da primeira impressão de um ambiente. Nossa proposta é trazer mais clareza para os espaços onde você vive e trabalha.</p>\n      <ul class=\"why-benefits\" aria-label=\"Proposta de cuidado da marca\">\n        <li>Olhar para os detalhes</li><li>Seu espaço em primeiro lugar</li><li>Clareza na comunicação</li><li>Casas e empresas</li>\n      </ul>\n      <button class=\"button\" data-contact=\"\" data-context=\"Conhecer a Fast Limp\">Conversar sobre meu espaço <span aria-hidden=\"true\">↗</span></button>\n      <p class=\"small why-review\">Proposta de marca. Diferenciais operacionais em confirmação.</p>\n    </div>\n    <figure class=\"why-figure\">\n      <img src=\"assets/photos/why-1280.webp\" srcset=\"assets/photos/why-640.webp 640w, assets/photos/why-1280.webp 1280w, assets/photos/why-1920.webp 1920w\" sizes=\"(min-width: 1280px) 568px, (min-width: 768px) 45vw, calc(100vw - 40px)\" width=\"1280\" height=\"960\" loading=\"eager\" alt=\"Referência ilustrativa de cuidado com uma superfície de vidro\">\n      <div class=\"why-badge\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><path d=\"M8 4h24v32H8zM8 20h24M20 4v32M27 8l-4 5m8-1-4 5\"></path></svg><div><strong>Cuidado nos detalhes</strong><span>Mais clareza para o seu espaço.</span></div></div>\n      <figcaption class=\"small\">Imagem ilustrativa; não retrata equipe ou serviço realizado.</figcaption>\n    </figure>\n  </div>\n</section>\n\n<section id=\"depoimentos\" class=\"section surface-alt testimonials-section\" aria-labelledby=\"testimonials-title\">\n  <div class=\"container\">\n    <div class=\"section-heading centered\"><span class=\"eyebrow\">Depoimentos</span><h2 id=\"testimonials-title\">A experiência de quem confia.</h2></div>\n    <div class=\"testimonials-layout\" aria-describedby=\"testimonials-status\">\n      <button class=\"round-button testimonial-prev\" disabled=\"\" aria-label=\"Depoimento anterior indisponível\" aria-describedby=\"testimonials-status\"><span aria-hidden=\"true\">‹</span></button>\n      <div class=\"testimonial-pending\"><svg class=\"quote-mark\" viewBox=\"0 0 48 36\" aria-hidden=\"true\"><path d=\"M4 30V18C4 9 9 4 18 4v6c-5 0-7 3-7 7h9v13zm26 0V18C30 9 35 4 44 4v6c-5 0-7 3-7 7h9v13z\"></path></svg><p class=\"pending-label\">Depoimentos — conteúdo pendente</p><p>Aqui será o espaço das experiências reais com a Fast Limp.</p><p id=\"testimonials-status\" class=\"small\">Aguardamos relatos autorizados e sua identificação. A navegação será habilitada quando houver depoimentos disponíveis.</p></div>\n      <button class=\"round-button testimonial-next\" disabled=\"\" aria-label=\"Próximo depoimento indisponível\" aria-describedby=\"testimonials-status\"><span aria-hidden=\"true\">›</span></button>\n    </div>\n  </div>\n</section>\n\n<section id=\"equipe\" class=\"section team-section\" aria-labelledby=\"team-title\">\n  <div class=\"container\">\n    <div class=\"section-top\"><div><span class=\"eyebrow\">Nossa equipe</span><h2 id=\"team-title\">Pessoas por trás de cada cuidado.</h2></div><button class=\"button\" data-pending=\"\" data-pending-title=\"Equipe em preparação\" data-pending-message=\"Este módulo aguarda nomes, funções, fotografias e autorização das pessoas que integram a Fast Limp. Os três espaços gráficos são apenas a composição de revisão local.\">Sobre a equipe <span aria-hidden=\"true\">↗</span></button></div>\n    <p class=\"small team-intro\">Apresentação da equipe em preparação. Os espaços abaixo não representam pessoas.</p>\n    <div class=\"team-grid\">\n      <article class=\"team-card\"><div class=\"team-art team-art-window\" aria-hidden=\"true\"><span class=\"team-slot-number\">01</span><svg viewBox=\"0 0 220 280\"><path d=\"M44 42h132v184H44zM110 42v184M44 134h132M65 63v51m0 40v51M137 69l20-20m-20 39 20-20\"></path><path class=\"team-art-accent\" d=\"m142 165 30 30m-45-15 30 30\"></path></svg><span class=\"team-art-label\">Espaço de apresentação</span></div><div class=\"team-nameplate\"><h3>Identificação pendente</h3><p>Nome, função e fotografia a confirmar.</p></div></article>\n      <article class=\"team-card team-card-featured\"><div class=\"team-art team-art-squeegee\" aria-hidden=\"true\"><span class=\"team-slot-number\">02</span><svg viewBox=\"0 0 220 280\"><path d=\"m50 88 102-36 12 34-102 36zM98 109l18 51 23-8-18-51M120 159l18 51 16-6-18-51M54 102l102-36\"></path><path class=\"team-art-accent\" d=\"M45 161h24m-12-12v24m107-30h20m-10-10v20\"></path></svg><span class=\"team-art-label\">Espaço de apresentação</span></div><div class=\"team-nameplate\"><h3>Identificação pendente</h3><p>Dados reais serão apresentados aqui.</p></div></article>\n      <article class=\"team-card\"><div class=\"team-art team-art-reflection\" aria-hidden=\"true\"><span class=\"team-slot-number\">03</span><svg viewBox=\"0 0 220 280\"><path d=\"M48 42h124v184H48zM63 57h94v154H63zM70 191h80M110 57v154M76 72l23 23m-23 0 23 23M125 155l19 19m-19 0 19 19\"></path><path class=\"team-art-accent\" d=\"M24 128h24m-12-12v24m134-42h24m-12-12v24\"></path></svg><span class=\"team-art-label\">Espaço de apresentação</span></div><div class=\"team-nameplate\"><h3>Identificação pendente</h3><p>Publicação após autorização da equipe.</p></div></article>\n    </div>\n  </div>\n</section>\n\n<section id=\"duvidas\" class=\"section surface-alt\" aria-labelledby=\"faq-title\">\n  <div class=\"container faq-grid\">\n    <div class=\"faq-intro section-heading\"><span class=\"eyebrow\">Dúvidas frequentes</span><h2 id=\"faq-title\">Mais clareza antes de começar.</h2><p>Entenda o que já está definido e quais detalhes serão confirmados antes do atendimento.</p><div class=\"faq-support\"><svg viewBox=\"0 0 40 40\" aria-hidden=\"true\"><path d=\"M6 7h28v20H18l-8 7v-7H6zM13 14h14m-14 6h9\"></path></svg><div><h3>Ainda tem uma dúvida?</h3><p>Veja a situação dos canais de contato nesta prévia local.</p></div><button class=\"button\" data-contact=\"\" data-context=\"Dúvidas sobre o atendimento\">Informações de contato <span aria-hidden=\"true\">↗</span></button></div></div>\n    <div class=\"faq-list\">\n      <div class=\"faq-item\"><h3><button id=\"faq-question-1\" data-accordion=\"\" aria-expanded=\"true\" aria-controls=\"faq-answer-1\">Como solicitar um orçamento?<span aria-hidden=\"true\">⌄</span></button></h3><div id=\"faq-answer-1\" class=\"faq-answer\" role=\"region\" aria-labelledby=\"faq-question-1\"><p>O canal oficial de orçamento ainda está em confirmação. Nesta prévia, os botões de contato abrem um painel com as informações pendentes, sem enviar mensagens. Valores e condições serão informados pelo atendimento oficial.</p></div></div>\n      <div class=\"faq-item\"><h3><button id=\"faq-question-2\" data-accordion=\"\" aria-expanded=\"false\" aria-controls=\"faq-answer-2\">A Fast Limp atende casas e empresas?<span aria-hidden=\"true\">⌄</span></button></h3><div id=\"faq-answer-2\" class=\"faq-answer\" role=\"region\" aria-labelledby=\"faq-question-2\" hidden=\"\"><p>A marca é voltada tanto a residências quanto a empresas. A disponibilidade para cada endereço e a adequação do serviço precisam ser confirmadas pelo atendimento.</p></div></div>\n      <div class=\"faq-item\"><h3><button id=\"faq-question-3\" data-accordion=\"\" aria-expanded=\"false\" aria-controls=\"faq-answer-3\">Quais vidros podem ser atendidos?<span aria-hidden=\"true\">⌄</span></button></h3><div id=\"faq-answer-3\" class=\"faq-answer\" role=\"region\" aria-labelledby=\"faq-question-3\" hidden=\"\"><p>O catálogo detalhado está em validação. Tipo de vidro, acabamento, dimensões e condições de acesso devem ser avaliados antes de confirmar o serviço. As imagens deste site são ilustrativas.</p></div></div>\n      <div class=\"faq-item\"><h3><button id=\"faq-question-4\" data-accordion=\"\" aria-expanded=\"false\" aria-controls=\"faq-answer-4\">É possível programar a limpeza?<span aria-hidden=\"true\">⌄</span></button></h3><div id=\"faq-answer-4\" class=\"faq-answer\" role=\"region\" aria-labelledby=\"faq-question-4\" hidden=\"\"><p>Agenda, frequência e condições para atendimentos recorrentes ainda precisam de confirmação. Nenhum horário é reservado por esta prévia local.</p></div></div>\n      <div class=\"faq-item\"><h3><button id=\"faq-question-5\" data-accordion=\"\" aria-expanded=\"false\" aria-controls=\"faq-answer-5\">Como preparar o ambiente?<span aria-hidden=\"true\">⌄</span></button></h3><div id=\"faq-answer-5\" class=\"faq-answer\" role=\"region\" aria-labelledby=\"faq-question-5\" hidden=\"\"><p>As orientações devem considerar o ambiente e o serviço acordado. A Fast Limp precisa confirmar os cuidados de acesso, proteção de objetos e preparação antes da visita; esta prévia não estabelece um procedimento operacional.</p></div></div>\n      <div class=\"faq-item\"><h3><button id=\"faq-question-6\" data-accordion=\"\" aria-expanded=\"false\" aria-controls=\"faq-answer-6\">Qual é a região de atendimento?<span aria-hidden=\"true\">⌄</span></button></h3><div id=\"faq-answer-6\" class=\"faq-answer\" role=\"region\" aria-labelledby=\"faq-question-6\" hidden=\"\"><p>Cidade e área de cobertura ainda não foram informadas. O endereço deverá ser consultado no canal oficial assim que ele estiver disponível. Não há cobertura geográfica anunciada nesta prévia.</p></div></div>\n    </div>\n  </div>\n</section>\n\n<section id=\"conteudos\" class=\"section\" aria-labelledby=\"articles-title\">\n  <div class=\"container\">\n    <div class=\"section-heading centered\"><span class=\"eyebrow\">Conteúdos</span><h2 id=\"articles-title\">Um olhar mais claro sobre o cuidado.</h2><p>Espaço editorial em preparação para compartilhar informações sobre vidros e ambientes.</p></div>\n    <div class=\"articles-grid\">\n      <article class=\"editorial-card\"><img src=\"assets/photos/article-01-640.webp\" srcset=\"assets/photos/article-01-640.webp 640w, assets/photos/article-01-1280.webp 1280w, assets/photos/article-01-1920.webp 1920w\" sizes=\"(min-width: 1280px) 384px, (min-width: 768px) 30vw, calc(100vw - 40px)\" width=\"1280\" height=\"853\" loading=\"eager\" alt=\"Imagem ilustrativa de vidro e luz natural para o espaço editorial\"><div class=\"editorial-copy\"><span class=\"pending-label\">Prévia editorial · conteúdo pendente</span><h3>Cuidado com os vidros</h3><p>Tema proposto para um futuro conteúdo. Texto e orientações aguardam revisão.</p><button class=\"text-link pending-link\" data-pending=\"\" data-pending-title=\"Conteúdo em preparação\" data-pending-message=\"Cuidado com os vidros é uma proposta editorial. Ainda não há artigo publicado, autoria ou data de publicação. O texto precisa ser produzido e revisado antes de disponibilizar a leitura.\">Sobre este conteúdo <span aria-hidden=\"true\">↗</span></button></div></article>\n      <article class=\"editorial-card\"><img src=\"assets/photos/article-02-640.webp\" srcset=\"assets/photos/article-02-640.webp 640w, assets/photos/article-02-1280.webp 1280w, assets/photos/article-02-1920.webp 1920w\" sizes=\"(min-width: 1280px) 384px, (min-width: 768px) 30vw, calc(100vw - 40px)\" width=\"1280\" height=\"853\" loading=\"eager\" alt=\"Cena ilustrativa de limpeza de vidro para o espaço editorial\"><div class=\"editorial-copy\"><span class=\"pending-label\">Prévia editorial · conteúdo pendente</span><h3>Clareza no dia a dia</h3><p>Espaço reservado para informações úteis sobre os ambientes da sua rotina.</p><button class=\"text-link pending-link\" data-pending=\"\" data-pending-title=\"Conteúdo em preparação\" data-pending-message=\"Clareza no dia a dia é uma proposta editorial. Este espaço aguarda texto revisado e um destino real de leitura. A fotografia é ilustrativa e não documenta serviço executado.\">Sobre este conteúdo <span aria-hidden=\"true\">↗</span></button></div></article>\n      <article class=\"editorial-card\"><img src=\"assets/photos/article-03-640.webp\" srcset=\"assets/photos/article-03-640.webp 640w, assets/photos/article-03-1280.webp 1280w, assets/photos/article-03-1920.webp 1920w\" sizes=\"(min-width: 1280px) 384px, (min-width: 768px) 30vw, calc(100vw - 40px)\" width=\"1280\" height=\"853\" loading=\"eager\" alt=\"Referência ilustrativa de ambiente com superfícies de vidro\"><div class=\"editorial-copy\"><span class=\"pending-label\">Prévia editorial · conteúdo pendente</span><h3>Ambientes e detalhes</h3><p>Um futuro olhar sobre a presença dos vidros em casas e empresas.</p><button class=\"text-link pending-link\" data-pending=\"\" data-pending-title=\"Conteúdo em preparação\" data-pending-message=\"Ambientes e detalhes é uma proposta editorial. Ainda não há publicação disponível. Autoria, revisão e página de leitura precisam ser confirmadas antes da publicação.\">Sobre este conteúdo <span aria-hidden=\"true\">↗</span></button></div></article>\n    </div>\n    <p class=\"small editorial-caption\">Fotografias ilustrativas. Não representam equipe, clientes ou trabalhos da Fast Limp.</p>\n  </div>\n</section>\n\n<footer id=\"contato\" class=\"surface-dark site-footer\" aria-labelledby=\"footer-contact-title\">\n  <div class=\"container\">\n    <div class=\"footer-cta\"><div><span class=\"eyebrow\">Fast Limp · Limpeza de vidros</span><h2 id=\"footer-contact-title\">Mais clareza para o seu próximo cuidado.</h2></div><button class=\"button\" data-contact=\"\">Solicitar um orçamento <span aria-hidden=\"true\">↗</span></button></div>\n    <div class=\"footer-grid\">\n      <div class=\"footer-brand\"><a class=\"footer-brand-link\" href=\"#inicio\" aria-label=\"Fast Limp, voltar ao início\"><img src=\"assets/brand/fast-limp-compacta-negativa.svg\" width=\"208\" height=\"48\" alt=\"Fast Limp\" loading=\"eager\"></a><p>Limpeza de vidros para residências e empresas. Cuidado nos detalhes, clareza nos ambientes.</p><p class=\"footer-pending\">Perfis oficiais de redes sociais em confirmação.</p></div>\n      <nav aria-labelledby=\"footer-nav-title\"><h3 id=\"footer-nav-title\">Explore</h3><a href=\"#sobre\">Sobre a Fast Limp</a><a href=\"#servicos\">Serviços</a><a href=\"#referencias\">Referências visuais</a><a href=\"#como-funciona\">Como funciona</a><a href=\"#duvidas\">Dúvidas frequentes</a></nav>\n      <div class=\"footer-services\"><h3>Para o seu espaço</h3><button data-contact=\"\" data-context=\"Residências\">Residências <span aria-hidden=\"true\">↗</span></button><button data-contact=\"\" data-context=\"Empresas\">Empresas <span aria-hidden=\"true\">↗</span></button><p class=\"footer-pending\">Catálogo e condições de atendimento em confirmação.</p></div>\n      <div class=\"footer-contact\"><h3>Vamos conversar</h3><p>Telefone, WhatsApp e região de atendimento aguardam confirmação.</p><button class=\"button\" data-contact=\"\">Ver informações de contato <span aria-hidden=\"true\">↗</span></button><p class=\"footer-pending\">Revisão local: nenhum dado é enviado por esta página.</p></div>\n    </div>\n    <div class=\"footer-legal\"><p>© <span data-year=\"\">2026</span> Fast Limp. Prévia local.</p><button class=\"footer-privacy\" data-pending=\"\" data-pending-title=\"Privacidade em preparação\" data-pending-message=\"A página de privacidade ainda precisa ser redigida e aprovada conforme os canais e serviços que forem ativados. Esta prévia local não possui formulário de cadastro ou envio de dados.\">Informações de privacidade <span aria-hidden=\"true\">↗</span></button></div>\n  </div>\n</footer>\n\n  </main>\n  <dialog id=\"contact-dialog\" aria-labelledby=\"contact-dialog-title\" class=\"info-dialog\">\n    <button class=\"round-button dialog-close\" data-close=\"\" aria-label=\"Fechar contato\">×</button>\n    <span class=\"eyebrow\">Revisão local · Contato</span>\n    <h2 id=\"contact-dialog-title\">Vamos cuidar do seu espaço.</h2>\n    <p id=\"contact-context\"></p>\n    <p>O telefone e o WhatsApp oficiais da Fast Limp ainda não foram fornecidos. O atendimento será conectado aqui assim que esses dados forem confirmados.</p>\n    <div class=\"dialog-note\">Nenhuma solicitação foi enviada e nenhum dado pessoal é coletado nesta prévia.</div>\n    <button class=\"button\" data-close=\"\">Entendi, continuar navegando <span aria-hidden=\"true\">↗</span></button>\n  </dialog>\n  <dialog id=\"gallery-dialog\" aria-labelledby=\"gallery-caption\" class=\"gallery-dialog\" open=\"\">\n    <button class=\"round-button dialog-close\" data-close=\"\" aria-label=\"Fechar fotografia\">×</button>\n    <figure><img id=\"gallery-image\" alt=\"Cena ilustrativa de limpeza de uma superfície envidraçada\" width=\"1920\" height=\"1280\" loading=\"eager\" src=\"assets/photos/gallery-01-1920.webp\"><figcaption id=\"gallery-caption\">Superfície envidraçada vista do exterior. Fotografia ilustrativa; não representa um trabalho executado pela Fast Limp.</figcaption></figure>\n  </dialog>\n  <dialog id=\"pending-dialog\" aria-labelledby=\"pending-title\" class=\"info-dialog\">\n    <button class=\"round-button dialog-close\" data-close=\"\" aria-label=\"Fechar informação\">×</button>\n    <span class=\"eyebrow\">Revisão local</span><h2 id=\"pending-title\">Conteúdo em preparação</h2>\n    <p id=\"pending-message\"></p><button class=\"button\" data-close=\"\">Voltar à página</button>\n  </dialog>\n\n\n</body>",
+  "returnGallery": true,
+  "faqOpen": [
+    "false",
+    "false",
+    "false",
+    "false",
+    "false",
+    "true"
+  ],
+  "errors": []
+}
