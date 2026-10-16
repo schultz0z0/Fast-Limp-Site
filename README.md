@@ -32,7 +32,24 @@ node scripts/qa.mjs
 
 `build` resolve os 183 tokens e integra os cinco fragmentos estáticos. `check` verifica seções, semântica principal, IDs, âncoras e assets. Os testes de navegador exigem o servidor ativo e usam o Playwright já disponível no runtime local do Codex; `PLAYWRIGHT_MODULE` pode apontar para outra instalação existente. Nenhum pacote de navegador foi instalado no projeto. `qa` renova capturas nas sete larguras, e `a11y` verifica os comportamentos de teclado, modais, FAQ, reflow e contrastes sólidos renderizados.
 
-## Estrutura
+## Apresentação temporária na Vercel
+
+O `vercel.json` configura **Other** (HTML/CSS/JS estático), executa `npm run build` e publica somente a pasta **`dist`**. Isso corrige o erro `STATIC_BUILD_NO_OUT_DIR`: a Vercel procurava uma pasta diferente daquela gerada pelo projeto.
+
+No projeto da Vercel, mantenha **Root Directory** na raiz do repositório (campo vazio ou `.`). Use a branch `main` e faça um novo deployment do commit mais recente. Não é necessário domínio próprio, backend ou variável de ambiente. Os avisos de npm/cache e `engines` vistos no log não foram a falha fatal; o ajuste é no diretório de saída.
+
+Este deploy serve para apresentação ao cliente: inclui a composição completa da prévia, como no localhost. A meta `noindex, nofollow` continua e a Vercel envia também o cabeçalho `X-Robots-Tag: noindex, nofollow`. Isso evita solicitar indexação, mas não é autenticação: quem receber o link poderá acessar. A configuração definitiva para a VPS continua sendo `npm run build:production` e a saída `dist-production/`, com os módulos temporários excluídos.
+
+Para reproduzir o build usado pela Vercel:
+
+```powershell
+npm run build
+npm run check
+```
+
+Se a integração Git já estiver ativa, o push na `main` pode disparar o deployment. Caso o painel ainda mostre o deployment antigo que falhou, crie um novo deployment usando o commit atualizado, com a raiz do projeto correta.
+
+## Arquivos do projeto
 
 - `site/partials/`: cabeçalho, hero, seções intermediárias, seções finais e rodapé.
 - `site/styles/`: tokens gerados e estilos por frente de implementação.

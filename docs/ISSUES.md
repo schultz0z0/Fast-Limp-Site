@@ -14,6 +14,14 @@ Atualização inicial: 15/10/2026. Modo: revisão local. Solicitação atual aut
 
 ## Retomada
 
+## FL-17 · Configuração para apresentação na Vercel — validada localmente
+
+- Solicitação: corrigir falha do deploy rápido na Vercel e enviar ajuste à `main`. Sem alteração do layout ou migração de stack.
+- Causa: screenshot mostra build concluído em `dist/`, seguido de `STATIC_BUILD_NO_OUT_DIR`; faltava declarar a saída no provedor. Log de avisos npm/Node não é o erro fatal.
+- Correção: `vercel.json` na raiz com framework `null` (Other), build `npm run build`, saída `dist` e cabeçalho de não indexação. Apresentação completa da prévia preservada; VPS definitiva mantém `dist-production/`.
+- Aceite: build e check da saída configurada; assets íntegros; configuração versionada e push na `main` confirmado. Deployment remoto depende de novo build pela integração Vercel; não declarar hospedagem validada sem retorno do provedor.
+- Evidências locais: `npm run build`, `npm run check`, `npm run test:content` e `git diff --check` passaram. `dist/index.html` existe; 10 áreas, 23 links e 57 referências de assets verificadas. Sem CLI autenticada da Vercel nesta sessão; a correção será enviada pelo Git autorizado, sem criar outro projeto ou deploy via ferramenta.
+
 ## FL-16 · Versionamento inicial no GitHub
 
 - Autorização: enviar o projeto para `https://github.com/schultz0z0/Fast-Limp-Site.git`, diretamente na branch `main`. Repositório remoto confirmado vazio e acesso administrativo disponível.

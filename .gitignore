@@ -1,6 +1,7 @@
 dist/
 dist-production/
 node_modules/
+.vercel/
 *.log
 tmp/
 .impeccable/live/
