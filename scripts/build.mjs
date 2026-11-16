@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir, cp, copyFile, rm } from 'node:fs/promises';
 import { resolve, dirname, basename } from 'node:path';
 import { renderContent } from './content.mjs';
+import { writePublicPages } from './public-pages.mjs';
 await import('./tokens.mjs');
 let html = await readFile('site/index.html', 'utf8');
 for (const name of ['header', 'start', 'middle', 'end', 'footer']) html = html.replace(`<!-- INCLUDE:${name} -->`, await readFile(`site/partials/${name}.html`, 'utf8'));
@@ -17,7 +18,8 @@ await writeFile(`${folder}/index.html`, html);
 for (const assetFolder of ['styles', 'scripts', 'assets']) await cp(`site/${assetFolder}`, `${folder}/${assetFolder}`, { recursive: true, filter: source => !source.includes('originals') && !['contact-sheet.jpg', 'manifest.json'].includes(basename(source)) && !(production && /(?:team-\d|article-\d)/.test(basename(source))) });
 await copyFile('site/assets/brand/favicon.ico', `${folder}/favicon.ico`);
 if (production) {
+  const urls = await writePublicPages(output, content);
   await writeFile(`${folder}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${new URL('sitemap.xml', content.siteUrl)}\n`);
-  await writeFile(`${folder}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${content.siteUrl}</loc></url>\n</urlset>\n`);
+  await writeFile(`${folder}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(url => `  <url><loc>${url}</loc></url>`).join('\n')}\n</urlset>\n`);
 }
 console.log(`Build estático concluído em ${folder}/. ${production ? 'Versão pública para ' + content.siteUrl : 'Prévia local para revisão visual.'}`);

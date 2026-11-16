@@ -46,7 +46,10 @@ for (const match of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(ma
 const local = new Set();
 for (const match of html.matchAll(/(?:src|href|data-full)="([^"#]+)"/g)) if (!/^(https?:|data:)/.test(match[1])) local.add(match[1]);
 for (const match of html.matchAll(/srcset="([^"]+)"/g)) for (const item of match[1].split(',')) local.add(item.trim().split(/\s/)[0]);
-for (const path of local) await access(resolve(folder, path));
+for (const path of local) {
+  const file = /^\/(about|contact|privacy)$/.test(path) ? `${path}.html` : path;
+  await access(resolve(folder, file.replace(/^\//, '')));
+}
 for (const name of ['base','middle','end']) {
   const css = await readFile(`${folder}/styles/${name}.css`, 'utf8');
   assert.ok(!/(?:html|body)\s*\{[^}]*overflow-x:\s*hidden/s.test(css), 'Não mascarar overflow');

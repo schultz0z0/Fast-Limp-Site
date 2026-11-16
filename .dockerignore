@@ -1,6 +1,7 @@
 **
 !Dockerfile
 !nginx.conf
+!nginx-accept.js
 !package.json
 !design-system.json
 !scripts/
@@ -9,6 +10,7 @@ scripts/**
 !scripts/check.mjs
 !scripts/content.mjs
 !scripts/tokens.mjs
+!scripts/public-pages.mjs
 !site/
 !site/**
 site/assets/originals/

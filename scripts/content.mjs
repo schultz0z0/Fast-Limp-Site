@@ -14,17 +14,27 @@ function publicMetadata(content) {
     logo: new URL('assets/brand/fast-limp-simbolo-principal.svg', content.siteUrl),
     image,
     telephone: `+${content.phone}`,
+    keywords: ['limpeza de vidros'],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Orçamentos e atendimento',
+      telephone: `+${content.phone}`,
+      url: new URL('contact', content.siteUrl),
+      availableLanguage: 'pt-BR',
+    },
     areaServed: { '@type': 'City', name: content.region },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Limpeza de vidros',
       itemListElement: content.services.map(name => ({
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name },
+        itemOffered: { '@type': 'Service', name, serviceType: 'Limpeza de vidros' },
       })),
     },
   };
   return `<link rel="canonical" href="${content.siteUrl}">
+  <link rel="alternate" type="text/markdown" href="${new URL('index.md', content.siteUrl)}">
+  <link rel="describedby" href="${new URL('llms.txt', content.siteUrl)}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Fast Limp">
@@ -58,6 +68,7 @@ export function renderContent(html, content, production = false) {
   if (starts !== ends) throw new Error('Blocos de demonstração sem fechamento');
   if (production) html = html.replace(/<!-- PREVIEW-ONLY:START -->[\s\S]*?<!-- PREVIEW-ONLY:END -->/g, '');
   html = html
+    .replace('<!-- PUBLIC-PAGES -->', production ? '<nav aria-label="Informações da empresa"><a href="/about">Sobre</a> · <a href="/contact">Contato</a> · <a href="/privacy">Privacidade</a></nav>' : '')
     .replace('{{TITLE}}', title)
     .replace('{{DESCRIPTION}}', description)
     .replace('<!-- INDEXING -->', () => production ? publicMetadata(content) : '<meta name="robots" content="noindex, nofollow">');
