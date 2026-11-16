@@ -1,0 +1,39 @@
+name: fast-limp
+
+services:
+  site:
+    build: .
+    restart: unless-stopped
+    networks:
+      - proxy
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: "${TRAEFIK_NETWORK:?Informe TRAEFIK_NETWORK no .env}"
+      traefik.http.services.fast-limp.loadbalancer.server.port: "80"
+
+      traefik.http.routers.fast-limp.rule: "Host(`fastlimpbrasil.com.br`)"
+      traefik.http.routers.fast-limp.entrypoints: "${TRAEFIK_HTTPS_ENTRYPOINT:-websecure}"
+      traefik.http.routers.fast-limp.tls: "true"
+      traefik.http.routers.fast-limp.tls.certresolver: "${TRAEFIK_CERT_RESOLVER:?Informe TRAEFIK_CERT_RESOLVER no .env}"
+      traefik.http.routers.fast-limp.service: fast-limp
+
+      traefik.http.routers.fast-limp-www.rule: "Host(`www.fastlimpbrasil.com.br`)"
+      traefik.http.routers.fast-limp-www.entrypoints: "${TRAEFIK_HTTPS_ENTRYPOINT:-websecure}"
+      traefik.http.routers.fast-limp-www.tls: "true"
+      traefik.http.routers.fast-limp-www.tls.certresolver: "${TRAEFIK_CERT_RESOLVER:?Informe TRAEFIK_CERT_RESOLVER no .env}"
+      traefik.http.routers.fast-limp-www.middlewares: fast-limp-canonical
+      traefik.http.routers.fast-limp-www.service: fast-limp
+
+      traefik.http.routers.fast-limp-http.rule: "Host(`fastlimpbrasil.com.br`) || Host(`www.fastlimpbrasil.com.br`)"
+      traefik.http.routers.fast-limp-http.entrypoints: "${TRAEFIK_HTTP_ENTRYPOINT:-web}"
+      traefik.http.routers.fast-limp-http.middlewares: fast-limp-canonical
+      traefik.http.routers.fast-limp-http.service: fast-limp
+
+      traefik.http.middlewares.fast-limp-canonical.redirectregex.regex: '^https?://(?:www\.)?fastlimpbrasil\.com\.br(/.*)$$'
+      traefik.http.middlewares.fast-limp-canonical.redirectregex.replacement: 'https://fastlimpbrasil.com.br$${1}'
+      traefik.http.middlewares.fast-limp-canonical.redirectregex.permanent: "true"
+
+networks:
+  proxy:
+    external: true
+    name: "${TRAEFIK_NETWORK:?Informe TRAEFIK_NETWORK no .env}"

@@ -19,6 +19,26 @@ assert.ok(contacts.length >= 20, 'CTAs convertidas em links reais');
 for (const [, href] of contacts) { const url = new URL(href.replaceAll('&amp;', '&')); assert.equal(url.hostname, 'wa.me'); assert.equal(url.pathname, '/5521967643628'); assert.ok(url.searchParams.get('text')?.startsWith('Olá, Fast Limp!')); }
 assert.equal((html.match(/class="service-card"/g)||[]).length, 5, 'Cinco serviços confirmados');
 if (folder === 'dist-production') { assert.ok(!/id="(?:depoimentos|equipe)"|perfil fictício|relato fictício|Mariana Costa/.test(html), 'Demonstrações ausentes no build público'); }
+if (folder === 'dist-production') {
+  const { siteUrl, phone, region } = JSON.parse(await readFile('site/content.json', 'utf8'));
+  assert.ok(!html.includes('noindex'), 'Produção indexável');
+  assert.ok(html.includes(`rel="canonical" href="${siteUrl}"`));
+  assert.ok(html.includes(`property="og:url" content="${siteUrl}"`));
+  const image = new URL(html.match(/property="og:image" content="([^"]+)"/)[1]);
+  assert.equal(image.origin, new URL(siteUrl).origin);
+  await access(resolve(folder, image.pathname.slice(1)));
+  assert.ok(html.includes(`name="twitter:image" content="${image}"`));
+  const business = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+  assert.equal(business.url, siteUrl);
+  assert.equal(business.telephone, `+${phone}`);
+  assert.equal(business.areaServed.name, region);
+  const robots = await readFile(`${folder}/robots.txt`, 'utf8');
+  const sitemap = await readFile(`${folder}/sitemap.xml`, 'utf8');
+  assert.ok(robots.includes(`Sitemap: ${new URL('sitemap.xml', siteUrl)}`));
+  assert.ok(sitemap.includes(`<loc>${siteUrl}</loc>`));
+} else {
+  assert.ok(html.includes('content="noindex, nofollow"'), 'Prévia fora da indexação');
+}
 const expected = ['inicio','sobre','servicos','referencias','como-funciona','diferenciais', ...(folder === 'dist' ? ['depoimentos','equipe'] : []),'duvidas','contato'];
 let previous = -1;
 for (const id of expected) { const index = html.indexOf(`id="${id}"`); assert.ok(index > previous, `Ordem de ${id}`); previous = index; }

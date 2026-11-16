@@ -1,3 +1,49 @@
+const title = 'Fast Limp — Limpeza de vidros no Rio de Janeiro';
+const description = 'Limpeza de vidros residenciais, comerciais, pós-obra, fachadas e vitrines no Rio de Janeiro. Peça um orçamento à Fast Limp pelo WhatsApp.';
+
+function publicMetadata(content) {
+  const image = new URL('assets/brand/fast-limp-social.jpg', content.siteUrl);
+  const imageAlt = 'Fast Limp — Limpeza de vidros no Rio de Janeiro';
+  const business = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': new URL('#fast-limp', content.siteUrl),
+    name: 'Fast Limp',
+    url: content.siteUrl,
+    description,
+    logo: new URL('assets/brand/fast-limp-simbolo-principal.svg', content.siteUrl),
+    image,
+    telephone: `+${content.phone}`,
+    areaServed: { '@type': 'City', name: content.region },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Limpeza de vidros',
+      itemListElement: content.services.map(name => ({
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name },
+      })),
+    },
+  };
+  return `<link rel="canonical" href="${content.siteUrl}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Fast Limp">
+  <meta property="og:url" content="${content.siteUrl}">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${description}">
+  <meta property="og:image" content="${image}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="${imageAlt}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:description" content="${description}">
+  <meta name="twitter:image" content="${image}">
+  <meta name="twitter:image:alt" content="${imageAlt}">
+  <script type="application/ld+json">${JSON.stringify(business).replaceAll('<', '\\u003c')}</script>`;
+}
+
 export function whatsappUrl(phone, context = '') {
   if (!/^55\d{10,11}$/.test(phone)) throw new Error('WhatsApp deve incluir país e DDD, somente dígitos');
   const message = context
@@ -11,6 +57,10 @@ export function renderContent(html, content, production = false) {
   const ends = (html.match(/<!-- PREVIEW-ONLY:END -->/g) || []).length;
   if (starts !== ends) throw new Error('Blocos de demonstração sem fechamento');
   if (production) html = html.replace(/<!-- PREVIEW-ONLY:START -->[\s\S]*?<!-- PREVIEW-ONLY:END -->/g, '');
+  html = html
+    .replace('{{TITLE}}', title)
+    .replace('{{DESCRIPTION}}', description)
+    .replace('<!-- INDEXING -->', () => production ? publicMetadata(content) : '<meta name="robots" content="noindex, nofollow">');
   html = html.replace(/<button\b([^>]*\bdata-contact\b[^>]*)>([\s\S]*?)<\/button>/g, (_, attributes, label) => {
     const context = attributes.match(/data-context="([^"]*)"/)?.[1] || '';
     const url = whatsappUrl(content.phone, context).replaceAll('&', '&amp;');

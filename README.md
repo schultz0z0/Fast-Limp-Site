@@ -32,6 +32,34 @@ node scripts/qa.mjs
 
 `build` resolve os 183 tokens e integra os cinco fragmentos estáticos. `check` verifica seções, semântica principal, IDs, âncoras e assets. Os testes de navegador exigem o servidor ativo e usam o Playwright já disponível no runtime local do Codex; `PLAYWRIGHT_MODULE` pode apontar para outra instalação existente. Nenhum pacote de navegador foi instalado no projeto. `qa` renova capturas nas sete larguras, e `a11y` verifica os comportamentos de teclado, modais, FAQ, reflow e contrastes sólidos renderizados.
 
+## Publicação na VPS Hostinger
+
+O `compose.yaml` sobe o Nginx com o resultado de `npm run build:production`. O contêiner do site entra na rede Docker existente do Traefik e atende na porta interna 80. O Traefik continua responsável pelas portas públicas e pelo TLS.
+
+1. Confirme que o registro `A` de `fastlimpbrasil.com.br` aponta para o IP público da VPS e que o `CNAME` de `www` aponta para o domínio principal. Confira também se há registros `AAAA` e se correspondem ao IPv6 da VPS.
+2. Confirme o provider Docker do Traefik e a rede à qual o contêiner dele está conectado. Copie `.env.example` para `.env` na VPS e preencha `TRAEFIK_NETWORK` com o nome dessa rede existente e `TRAEFIK_CERT_RESOLVER` com o nome do resolvedor ACME. Ajuste os entrypoints HTTP e HTTPS se usarem nomes diferentes de `web` e `websecure`.
+3. Na pasta do projeto na VPS, execute:
+
+```sh
+docker compose config --quiet
+docker compose up -d --build
+docker compose ps
+```
+
+4. Confira a página principal e os redirecionamentos públicos. O destino final é `https://fastlimpbrasil.com.br/`. Um redirecionamento global HTTP→HTTPS no Traefik pode adicionar uma etapa para `http://www`.
+
+```sh
+curl -fsSI https://fastlimpbrasil.com.br/
+curl -fsSIL http://fastlimpbrasil.com.br/
+curl -fsSIL https://www.fastlimpbrasil.com.br/
+curl -fsS https://fastlimpbrasil.com.br/robots.txt
+curl -fsS https://fastlimpbrasil.com.br/sitemap.xml
+curl -fsSI https://fastlimpbrasil.com.br/favicon.ico
+curl -fsSI https://fastlimpbrasil.com.br/assets/brand/fast-limp-social.jpg
+```
+
+Após validar o HTTPS, teste o compartilhamento no WhatsApp e envie o sitemap no Google Search Console.
+
 ## Apresentação temporária na Vercel
 
 O `vercel.json` configura **Other** (HTML/CSS/JS estático), executa `npm run build` e publica somente a pasta **`dist`**. Isso corrige o erro `STATIC_BUILD_NO_OUT_DIR`: a Vercel procurava uma pasta diferente daquela gerada pelo projeto.
@@ -74,4 +102,4 @@ A prévia local em `dist/` mantém um depoimento e três perfis de equipe com fo
 
 As fotos existentes foram mantidas, sem rótulos de banco de imagens na interface. A procedência e as licenças ficam em `docs/ASSETS.md`; a galeria não afirma documentar trabalhos realizados. Blog/artigos foram removidos. Oito FAQs foram adaptadas a partir da pesquisa registrada em `docs/FAQ-PESQUISA.md`, sem copiar condições comerciais de concorrentes. Privacidade e contato descrevem o funcionamento atual da página e do redirecionamento ao WhatsApp.
 
-O `noindex` permanece deliberadamente nas duas saídas enquanto o domínio e a publicação não forem definidos. Antes de publicar: configurar domínio/hospedagem/HTTPS, revisar o conteúdo final e o tratamento de dados no atendimento, ajustar indexação/canonical/sitemap para o domínio real e conferir o destino no WhatsApp instalado. Redes sociais, preços, avaliações, certificações e resultados não foram inventados. A versão pública pode funcionar sem equipe ou depoimento; fotos próprias são opcionais, com autorização quando usadas. Evidências atuais em `output/site-validation/commercial/` e resumo em `docs/ATUALIZACAO-COMERCIAL.md`.
+O build público permite indexação e inclui URL canônica, sitemap, robots.txt, metadados de compartilhamento e dados estruturados sobre a empresa, seus serviços e sua área de atendimento. A prévia local e a da Vercel mantêm `noindex`. Redes sociais, preços, avaliações, certificações e resultados não foram inventados. A versão pública pode funcionar sem equipe ou depoimento; fotos próprias são opcionais, com autorização quando usadas. Evidências anteriores em `output/site-validation/commercial/` e resumo em `docs/ATUALIZACAO-COMERCIAL.md`.

@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!nginx.conf
+!package.json
+!design-system.json
+!scripts/
+scripts/**
+!scripts/build.mjs
+!scripts/check.mjs
+!scripts/content.mjs
+!scripts/tokens.mjs
+!site/
+!site/**
+site/assets/originals/
